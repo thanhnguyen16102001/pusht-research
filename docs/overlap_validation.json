@@ -1,0 +1,379 @@
+{
+  "scope": "Synthetic near-goal development cases and two full development episodes; not held-out benchmark.",
+  "tests_passed": 72,
+  "target_coverage": 0.995,
+  "control_hz": 10,
+  "config": {
+    "mpc": {
+      "horizon": 20,
+      "population": 256,
+      "iterations": 4,
+      "elite_fraction": 0.1,
+      "initial_std": 60.0,
+      "min_std": 3.0,
+      "smoothing": 0.2,
+      "noise_correlation": 0.9,
+      "max_action_delta": 40.0,
+      "max_predicted_speed": 2500.0,
+      "prediction_margin": 100.0,
+      "contact_candidates": true,
+      "seed": 42,
+      "route_candidates": true,
+      "adaptive_sampling": true,
+      "precision_contact": true,
+      "refinement_min_std": 0.5
+    },
+    "cost": {
+      "dt": 0.1,
+      "goal_weight": 10.0,
+      "distance_weight": 0.005,
+      "smoothness_weight": 0.005,
+      "time_weight": 0.2,
+      "approach_weight": 0.03,
+      "consistency_weight": 0.1,
+      "penetration_weight": 0.1,
+      "position_scale": 80.0,
+      "angle_scale": 1.5707963267948966,
+      "acceleration_ref": 2000.0,
+      "terminal_weight": 0.7,
+      "goal_position_tolerance": 2.0,
+      "goal_angle_tolerance": 0.02,
+      "goal_hold_steps": 2,
+      "agent_radius": 15.0,
+      "contact_margin": 10.0,
+      "penetration_tolerance": 3.0,
+      "geometry_mix": 1.0,
+      "overlap_weight": 5.0,
+      "goal_coverage": 0.995,
+      "overlap_activation_coverage": 0.9
+    }
+  },
+  "checkpoint_sha256": "60bd2bf2d8bd817cfa6ef9bad79528d12b4099c46b25e32eb1f40e778b149f6b",
+  "near_goal_max_steps": 60,
+  "synthetic_cases": [
+    {
+      "name": "local_x_plus_2",
+      "seed": 41000,
+      "initial_state": [
+        248.221825406948,
+        311.86143571373725,
+        257.4142135623731,
+        257.4142135623731,
+        0.7853981633974483
+      ],
+      "initial_coverage": 0.961904761904762,
+      "demonstration_constant_action": [
+        245.39339828220182,
+        309.03300858899104
+      ],
+      "demonstration_20_step_final_coverage": 0.99999995831816
+    },
+    {
+      "name": "local_x_minus_2",
+      "seed": 41001,
+      "initial_state": [
+        200.13856428626275,
+        263.77817459305203,
+        254.5857864376269,
+        254.5857864376269,
+        0.7853981633974483
+      ],
+      "initial_coverage": 0.961904761904762,
+      "demonstration_constant_action": [
+        202.96699141100893,
+        266.60660171779824
+      ],
+      "demonstration_20_step_final_coverage": 0.99999995831816
+    },
+    {
+      "name": "local_y_plus_2",
+      "seed": 41002,
+      "initial_state": [
+        157.7121574150699,
+        354.2878425849301,
+        254.5857864376269,
+        257.4142135623731,
+        0.7853981633974483
+      ],
+      "initial_coverage": 0.961904761904762,
+      "demonstration_constant_action": [
+        160.54058453981608,
+        351.4594154601839
+      ],
+      "demonstration_20_step_final_coverage": 0.99999995831816
+    },
+    {
+      "name": "local_y_minus_2",
+      "seed": 41003,
+      "initial_state": [
+        269.4350288425444,
+        242.56497115745557,
+        257.4142135623731,
+        254.5857864376269,
+        0.7853981633974483
+      ],
+      "initial_coverage": 0.961904761904762,
+      "demonstration_constant_action": [
+        266.6066017177982,
+        245.39339828220176
+      ],
+      "demonstration_20_step_final_coverage": 0.99999995831816
+    },
+    {
+      "name": "angle_plus_0_02",
+      "seed": 41004,
+      "initial_state": [
+        161.71897076747229,
+        302.2070073349839,
+        256.0,
+        256.0,
+        0.8053981633974483
+      ],
+      "initial_coverage": 0.965964613103919,
+      "demonstration_constant_action": [
+        164.07611844574882,
+        305.49747468305833
+      ],
+      "demonstration_20_step_final_coverage": 0.99760938262025
+    },
+    {
+      "name": "angle_minus_0_02",
+      "seed": 41005,
+      "initial_state": [
+        209.7929926650161,
+        350.2810292325277,
+        256.0,
+        256.0,
+        0.7653981633974483
+      ],
+      "initial_coverage": 0.965964613103919,
+      "demonstration_constant_action": [
+        206.50252531694167,
+        347.9238815542512
+      ],
+      "demonstration_20_step_final_coverage": 0.99760938262025
+    }
+  ],
+  "baseline_config": {
+    "mpc": {
+      "horizon": 20,
+      "population": 256,
+      "iterations": 4,
+      "elite_fraction": 0.1,
+      "initial_std": 60.0,
+      "min_std": 3.0,
+      "smoothing": 0.2,
+      "noise_correlation": 0.9,
+      "max_action_delta": 40.0,
+      "max_predicted_speed": 2500.0,
+      "prediction_margin": 100.0,
+      "contact_candidates": true,
+      "seed": 42,
+      "route_candidates": true,
+      "adaptive_sampling": false
+    },
+    "cost": {
+      "dt": 0.1,
+      "goal_weight": 10.0,
+      "distance_weight": 0.005,
+      "smoothness_weight": 0.005,
+      "time_weight": 0.2,
+      "approach_weight": 0.03,
+      "consistency_weight": 0.1,
+      "penetration_weight": 0.1,
+      "position_scale": 80.0,
+      "angle_scale": 1.5707963267948966,
+      "acceleration_ref": 2000.0,
+      "terminal_weight": 0.7,
+      "goal_position_tolerance": 2.0,
+      "goal_angle_tolerance": 0.02,
+      "goal_hold_steps": 2,
+      "agent_radius": 15.0,
+      "contact_margin": 10.0,
+      "penetration_tolerance": 3.0,
+      "geometry_mix": 1.0,
+      "goal_coverage": 0.995
+    }
+  },
+  "baseline_episodes": [
+    {
+      "seed": 41000,
+      "case": "local_x_plus_2",
+      "success": false,
+      "steps": 60,
+      "initial_coverage": 0.9619047619047615,
+      "final_coverage": 0.9467706764281069,
+      "max_coverage": 0.9732344992748393,
+      "actuator_path_length": 49.81911113472467,
+      "acceleration_rms": 120.78618029527745,
+      "planning_ms_p95": 283.4366686980502
+    },
+    {
+      "seed": 41001,
+      "case": "local_x_minus_2",
+      "success": false,
+      "steps": 60,
+      "initial_coverage": 0.9619047619047619,
+      "final_coverage": 0.9897981464784023,
+      "max_coverage": 0.9897981464784023,
+      "actuator_path_length": 201.00042661116126,
+      "acceleration_rms": 410.28708304231765,
+      "planning_ms_p95": 270.04409515066067
+    },
+    {
+      "seed": 41002,
+      "case": "local_y_plus_2",
+      "success": false,
+      "steps": 60,
+      "initial_coverage": 0.9619047619047616,
+      "final_coverage": 0.9665091624754052,
+      "max_coverage": 0.9903762742115095,
+      "actuator_path_length": 90.6401086964682,
+      "acceleration_rms": 274.2814438810099,
+      "planning_ms_p95": 261.21982479980943
+    },
+    {
+      "seed": 41003,
+      "case": "local_y_minus_2",
+      "success": false,
+      "steps": 60,
+      "initial_coverage": 0.961904761904762,
+      "final_coverage": 0.9938000525872492,
+      "max_coverage": 0.9938000525872492,
+      "actuator_path_length": 202.24915252502888,
+      "acceleration_rms": 373.12077870871764,
+      "planning_ms_p95": 238.62004264774438
+    },
+    {
+      "seed": 41004,
+      "case": "angle_plus_0_02",
+      "success": false,
+      "steps": 60,
+      "initial_coverage": 0.9659646131039188,
+      "final_coverage": 0.9918014788356901,
+      "max_coverage": 0.9918014788356901,
+      "actuator_path_length": 200.96709643277953,
+      "acceleration_rms": 460.53143536995583,
+      "planning_ms_p95": 267.28001480059896
+    },
+    {
+      "seed": 41005,
+      "case": "angle_minus_0_02",
+      "success": false,
+      "steps": 60,
+      "initial_coverage": 0.9659646131039195,
+      "final_coverage": 0.9758926642757076,
+      "max_coverage": 0.9758926642757076,
+      "actuator_path_length": 212.10540346826448,
+      "acceleration_rms": 467.46882905263624,
+      "planning_ms_p95": 248.57798055254534
+    }
+  ],
+  "updated_episodes": [
+    {
+      "seed": 41000,
+      "case": "local_x_plus_2",
+      "success": false,
+      "steps": 60,
+      "initial_coverage": 0.9619047619047615,
+      "final_coverage": 0.9465517665977365,
+      "max_coverage": 0.9825039174092897,
+      "actuator_path_length": 98.23989694683439,
+      "acceleration_rms": 169.05606904973962,
+      "planning_ms_p95": 228.03076205000252
+    },
+    {
+      "seed": 41001,
+      "case": "local_x_minus_2",
+      "success": false,
+      "steps": 60,
+      "initial_coverage": 0.9619047619047619,
+      "final_coverage": 0.9267146582619699,
+      "max_coverage": 0.9619047619047619,
+      "actuator_path_length": 86.61259187916866,
+      "acceleration_rms": 141.8033433097094,
+      "planning_ms_p95": 217.9775910506578
+    },
+    {
+      "seed": 41002,
+      "case": "local_y_plus_2",
+      "success": true,
+      "steps": 6,
+      "initial_coverage": 0.9619047619047616,
+      "final_coverage": 0.9981654975991158,
+      "max_coverage": 0.9981654975991158,
+      "actuator_path_length": 6.436713457912374,
+      "acceleration_rms": 68.85825100353269,
+      "planning_ms_p95": 212.15900025072187
+    },
+    {
+      "seed": 41003,
+      "case": "local_y_minus_2",
+      "success": true,
+      "steps": 5,
+      "initial_coverage": 0.961904761904762,
+      "final_coverage": 0.9953690645589425,
+      "max_coverage": 0.9953690645589425,
+      "actuator_path_length": 7.270873322192825,
+      "acceleration_rms": 83.49117602399659,
+      "planning_ms_p95": 202.0061616000021
+    },
+    {
+      "seed": 41004,
+      "case": "angle_plus_0_02",
+      "success": false,
+      "steps": 60,
+      "initial_coverage": 0.9659646131039188,
+      "final_coverage": 0.9935815255489634,
+      "max_coverage": 0.9935815255489634,
+      "actuator_path_length": 210.57952142638456,
+      "acceleration_rms": 353.76010863678755,
+      "planning_ms_p95": 232.07799805222749
+    },
+    {
+      "seed": 41005,
+      "case": "angle_minus_0_02",
+      "success": true,
+      "steps": 8,
+      "initial_coverage": 0.9659646131039195,
+      "final_coverage": 0.9961264348123868,
+      "max_coverage": 0.9961264348123868,
+      "actuator_path_length": 10.44538436727308,
+      "acceleration_rms": 93.25876848851394,
+      "planning_ms_p95": 241.14734760114516
+    }
+  ],
+  "near_goal_baseline_successes": 0,
+  "near_goal_updated_successes": 3,
+  "full_episode_max_steps": 300,
+  "full_episodes": [
+    {
+      "seed": 1000,
+      "success": false,
+      "steps": 300,
+      "initial_coverage": 0.17837702012988743,
+      "final_coverage": 0.982837948040924,
+      "max_coverage": 0.9862220903458526,
+      "actuator_path_length": 3083.9215458654585,
+      "acceleration_rms": 728.4447898062654,
+      "planning_ms_p95": 275.33080190096376
+    },
+    {
+      "seed": 1001,
+      "success": false,
+      "steps": 300,
+      "initial_coverage": 0.0,
+      "final_coverage": 0.9602068659113728,
+      "max_coverage": 0.9602068659113728,
+      "actuator_path_length": 2536.0180539682015,
+      "acceleration_rms": 759.5840214331181,
+      "planning_ms_p95": 205.74879870073346
+    }
+  ],
+  "notes": [
+    "Baseline matches strict stop/coverage completion with overlap_weight=0, precision_contact=False, adaptive_sampling=False.",
+    "Both final and maximum coverage are retained; X-translation cases regress in final coverage.",
+    "Baseline comparisons ran concurrently; do not compare latency as an isolated timing benchmark.",
+    "Original environment success >95% is distinct from requested99.5%."
+  ]
+}

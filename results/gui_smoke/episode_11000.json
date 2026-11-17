@@ -1,0 +1,64 @@
+{
+  "seed": 11000,
+  "controller": "mpc",
+  "steps": 3,
+  "success": false,
+  "completion_time_seconds": null,
+  "elapsed_simulation_seconds": 0.30000000000000004,
+  "wall_seconds": 3.5774986809992697,
+  "time_limit_seconds": 0.30000000000000004,
+  "stopped_by_user": false,
+  "initial_coverage": 0.0,
+  "final_coverage": 0.0,
+  "max_coverage": 0.0,
+  "fallback_count": 0,
+  "planning_ms_mean": 54.43122799988487,
+  "planning_ms_p50": 56.14240100112511,
+  "planning_ms_p95": 58.72450189817755,
+  "planning_deadline_misses": 0,
+  "one_step_T_position_error_mean": 0.0,
+  "invalid_prediction_count": 0,
+  "scored_model_predictions": 3,
+  "actuator_path_length": 77.888030200137,
+  "velocity_total_variation": 350.74734791175786,
+  "acceleration_rms": 1280.7511169355014,
+  "acceleration_peak": 1774.0304250437991,
+  "final_block_position_error": 140.42791745233566,
+  "final_block_angle_error_deg": 68.94812982107717,
+  "planner_diagnostics": {
+    "cost": [
+      1.8926305770874023,
+      1.3649442195892334,
+      1.1673882007598877
+    ],
+    "components": [
+      {
+        "goal": 1.7404824495315552,
+        "distance": 0.462129145860672,
+        "smoothness": 0.5088890790939331,
+        "time": 1.0,
+        "approach": 0.2508530914783478,
+        "consistency": 0.0,
+        "penetration": 0.0037751346826553345
+      },
+      {
+        "goal": 1.203744649887085,
+        "distance": 0.5365481972694397,
+        "smoothness": 0.740720272064209,
+        "time": 1.0,
+        "approach": 0.1324584037065506,
+        "consistency": 5.2815106755588204e-05,
+        "penetration": 0.4637487530708313
+      },
+      {
+        "goal": 1.0057623386383057,
+        "distance": 0.533750593662262,
+        "smoothness": 0.7465912103652954,
+        "time": 1.0,
+        "approach": 0.05648020654916763,
+        "consistency": 5.315469388733618e-05,
+        "penetration": 0.7001503109931946
+      }
+    ]
+  }
+}

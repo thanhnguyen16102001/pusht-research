@@ -1,0 +1,19 @@
+{
+  "tests_passed": 46,
+  "recommended_checkpoint": "/home/thanh/AI-application/pusht-research/checkpoints/WorldModel_contact_best.pt",
+  "recommended_config": "configs/mpc_default.json",
+  "validation_windows": 1010,
+  "development_success_rate": 1.0,
+  "reserved_success_rate": 0.4,
+  "reserved_seeds": [
+    1005,
+    1006,
+    1007,
+    1008,
+    1009
+  ],
+  "hold_success_rate": 0.0,
+  "mean_max_coverage": 0.9370690122334995,
+  "mean_completion_time_successes_only": 7.500000000000001,
+  "limitations": "Research baseline; reliable success for all initial states and global optimality are not established."
+}

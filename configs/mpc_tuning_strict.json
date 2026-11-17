@@ -1,0 +1,37 @@
+{
+  "mpc": {
+    "horizon": 10,
+    "population": 256,
+    "iterations": 4,
+    "elite_fraction": 0.1,
+    "initial_std": 70.0,
+    "min_std": 2.0,
+    "smoothing": 0.2,
+    "noise_correlation": 0.8,
+    "max_action_delta": 60.0,
+    "max_predicted_speed": 2500.0,
+    "prediction_margin": 100.0,
+    "contact_candidates": true,
+    "seed": 42
+  },
+  "cost": {
+    "dt": 0.1,
+    "goal_weight": 1.0,
+    "distance_weight": 0.02,
+    "smoothness_weight": 0.01,
+    "time_weight": 0.1,
+    "approach_weight": 0.15,
+    "consistency_weight": 0.1,
+    "penetration_weight": 0.05,
+    "position_scale": 100.0,
+    "angle_scale": 1.5707963267948966,
+    "acceleration_ref": 2000.0,
+    "terminal_weight": 0.7,
+    "goal_position_tolerance": 1.5,
+    "goal_angle_tolerance": 0.015,
+    "goal_hold_steps": 2,
+    "agent_radius": 15.0,
+    "contact_margin": 10.0,
+    "penetration_tolerance": 3.0
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "test/sim_max_reward_4300000": 0.0,
+  "test/sim_video_4300000": "../pusht-research/results/github_pretrained_smoke/media/p6hgcquh.mp4",
+  "test/mean_score": 0.0,
+  "verification": {
+    "max_steps": 8,
+    "n_test": 1,
+    "device": "cpu",
+    "weight_key": "ema_model",
+    "seconds": 4.034887720999905,
+    "note": "Smoke test only, not a full benchmark"
+  }
+}

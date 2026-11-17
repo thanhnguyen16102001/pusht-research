@@ -1,0 +1,135 @@
+{
+  "seed": 1079,
+  "controller": "mpc",
+  "steps": 10,
+  "success": false,
+  "completion_time_seconds": null,
+  "elapsed_simulation_seconds": 1.0,
+  "wall_seconds": 2.571683223002765,
+  "time_limit_seconds": 30.0,
+  "stopped_by_user": true,
+  "termination_reason": "keyboard_interrupt",
+  "initial_coverage": 0.0,
+  "final_coverage": 0.0,
+  "max_coverage": 0.0,
+  "fallback_count": 0,
+  "planning_ms_mean": 95.17779749985493,
+  "planning_ms_p50": 93.91498649893038,
+  "planning_ms_p95": 100.44762465149688,
+  "planning_deadline_misses": 1,
+  "one_step_T_position_error_mean": 0.6681912541389465,
+  "invalid_prediction_count": 0,
+  "scored_model_predictions": 10,
+  "actuator_path_length": 208.90792632840572,
+  "velocity_total_variation": 753.7379203852803,
+  "acceleration_rms": 865.4474405084801,
+  "acceleration_peak": 1489.1849906119462,
+  "final_block_position_error": 146.48314655913322,
+  "final_block_angle_error_deg": 120.52163194377837,
+  "planner_diagnostics": {
+    "cost": [
+      20.106916427612305,
+      11.961945533752441,
+      10.845452308654785,
+      9.960539817810059,
+      8.951727867126465,
+      8.224065780639648,
+      6.970371723175049,
+      5.83381462097168,
+      4.97332763671875,
+      4.16885232925415
+    ],
+    "components": [
+      {
+        "goal": 1.9885904788970947,
+        "distance": 0.665372371673584,
+        "smoothness": 0.2722889482975006,
+        "time": 1.0,
+        "approach": 0.5288928747177124,
+        "consistency": 2.2985900614003185e-06,
+        "penetration": 0.0045636119320988655
+      },
+      {
+        "goal": 1.1738299131393433,
+        "distance": 0.7231023907661438,
+        "smoothness": 0.22706052660942078,
+        "time": 1.0,
+        "approach": 0.4837743639945984,
+        "consistency": 0.0,
+        "penetration": 0.04383368045091629
+      },
+      {
+        "goal": 1.0625338554382324,
+        "distance": 0.7435252070426941,
+        "smoothness": 0.23517611622810364,
+        "time": 1.0,
+        "approach": 0.36124134063720703,
+        "consistency": 0.0,
+        "penetration": 0.04383445531129837
+      },
+      {
+        "goal": 0.974395215511322,
+        "distance": 0.741252064704895,
+        "smoothness": 0.22954411804676056,
+        "time": 1.0,
+        "approach": 0.24498876929283142,
+        "consistency": 0.0,
+        "penetration": 0.04384526610374451
+      },
+      {
+        "goal": 0.866240382194519,
+        "distance": 0.7185745239257812,
+        "smoothness": 0.18325760960578918,
+        "time": 1.0,
+        "approach": 0.14637407660484314,
+        "consistency": 0.0,
+        "penetration": 0.8042320013046265
+      },
+      {
+        "goal": 0.7936688661575317,
+        "distance": 0.6880642771720886,
+        "smoothness": 0.18481120467185974,
+        "time": 1.0,
+        "approach": 0.08791008591651917,
+        "consistency": 0.0,
+        "penetration": 0.8037603497505188
+      },
+      {
+        "goal": 0.6748098731040955,
+        "distance": 0.8223402500152588,
+        "smoothness": 0.291169673204422,
+        "time": 1.0,
+        "approach": 0.25927215814590454,
+        "consistency": 0.00014645623741671443,
+        "penetration": 0.08912460505962372
+      },
+      {
+        "goal": 0.5609458684921265,
+        "distance": 0.7953989505767822,
+        "smoothness": 0.16797414422035217,
+        "time": 1.0,
+        "approach": 0.2550126910209656,
+        "consistency": 0.00019913807045668364,
+        "penetration": 0.11868800967931747
+      },
+      {
+        "goal": 0.4746403098106384,
+        "distance": 0.7853829264640808,
+        "smoothness": 0.16512200236320496,
+        "time": 1.0,
+        "approach": 0.3851802945137024,
+        "consistency": 0.00036679202457889915,
+        "penetration": 0.10580514371395111
+      },
+      {
+        "goal": 0.39411816000938416,
+        "distance": 0.7864248752593994,
+        "smoothness": 0.2101806402206421,
+        "time": 1.0,
+        "approach": 0.6154810786247253,
+        "consistency": 0.0014447246212512255,
+        "penetration": 0.040783993899822235
+      }
+    ]
+  }
+}

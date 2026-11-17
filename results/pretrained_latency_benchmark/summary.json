@@ -1,0 +1,46 @@
+{
+  "device": "cpu",
+  "torch_threads": 1,
+  "cuda_available": false,
+  "history_source": "results/github_live_95/episode_1000.npz:states[:2]",
+  "scope": "Repeated inference on fixed observation; latency only, not success-rate benchmark",
+  "samplers": {
+    "ddpm": {
+      "steps": 100,
+      "trials": [
+        {
+          "seconds": 2.2343108489994847,
+          "denoiser_calls": 100
+        },
+        {
+          "seconds": 2.2423173239994867,
+          "denoiser_calls": 100
+        },
+        {
+          "seconds": 2.356127605000438,
+          "denoiser_calls": 100
+        }
+      ],
+      "mean_seconds": 2.2775852593331365
+    },
+    "ddim": {
+      "steps": 20,
+      "trials": [
+        {
+          "seconds": 0.43917195799986075,
+          "denoiser_calls": 20
+        },
+        {
+          "seconds": 0.4603675700000167,
+          "denoiser_calls": 20
+        },
+        {
+          "seconds": 0.4372565889998441,
+          "denoiser_calls": 20
+        }
+      ],
+      "mean_seconds": 0.44559870566657384
+    }
+  },
+  "speedup": 5.1112923587291
+}

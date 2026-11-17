@@ -1,0 +1,5273 @@
+{
+  "provenance": "known",
+  "episodes": [
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 0,
+      "start": 0,
+      "stop": 1133,
+      "initial_group": "6ec8b46c5ba4d413",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 1,
+      "start": 1133,
+      "stop": 4681,
+      "initial_group": "332fd2324aa4aa3e",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 2,
+      "start": 4681,
+      "stop": 4978,
+      "initial_group": "ab7e6965059c5494",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 3,
+      "start": 4978,
+      "stop": 5194,
+      "initial_group": "c80184847737da64",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 4,
+      "start": 5194,
+      "stop": 5373,
+      "initial_group": "bd167f0e90119691",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 5,
+      "start": 5373,
+      "stop": 5673,
+      "initial_group": "0bb7fcbf50cc2a9d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 6,
+      "start": 5673,
+      "stop": 5955,
+      "initial_group": "29a8206b066d56ab",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 7,
+      "start": 5955,
+      "stop": 6392,
+      "initial_group": "c795e16937a36abe",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 8,
+      "start": 6392,
+      "stop": 6581,
+      "initial_group": "3b3773abcb31af6a",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 9,
+      "start": 6581,
+      "stop": 6815,
+      "initial_group": "d4e4c78e60143d20",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 10,
+      "start": 6815,
+      "stop": 7081,
+      "initial_group": "e6801e9a77f2eaf8",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 11,
+      "start": 7081,
+      "stop": 7361,
+      "initial_group": "885f6f69fcb2c236",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 12,
+      "start": 7361,
+      "stop": 7576,
+      "initial_group": "dea7e28f098add3e",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 13,
+      "start": 7576,
+      "stop": 7804,
+      "initial_group": "eeb7305f7f64272b",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 14,
+      "start": 7804,
+      "stop": 8053,
+      "initial_group": "061c7cfa9d83177d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 15,
+      "start": 8053,
+      "stop": 8312,
+      "initial_group": "7be14120edc362d0",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 16,
+      "start": 8312,
+      "stop": 8543,
+      "initial_group": "f721bbf434edf3b3",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 17,
+      "start": 8543,
+      "stop": 8684,
+      "initial_group": "6334b97246f36e73",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 18,
+      "start": 8684,
+      "stop": 8798,
+      "initial_group": "5c295f86d589350c",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 19,
+      "start": 8798,
+      "stop": 9037,
+      "initial_group": "9fd44ba1ff1d09e9",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 20,
+      "start": 9037,
+      "stop": 9352,
+      "initial_group": "822889ce8f43423b",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 21,
+      "start": 9352,
+      "stop": 9554,
+      "initial_group": "60d4692599b82b62",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 22,
+      "start": 9554,
+      "stop": 9686,
+      "initial_group": "969811b7e932bd41",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 23,
+      "start": 9686,
+      "stop": 9891,
+      "initial_group": "23a1a86dad0041a7",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 24,
+      "start": 9891,
+      "stop": 10045,
+      "initial_group": "e65f50ebc043812b",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 25,
+      "start": 10045,
+      "stop": 10157,
+      "initial_group": "275b142f9cf3e171",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 26,
+      "start": 10157,
+      "stop": 10365,
+      "initial_group": "9aace8ba1f8ad2e9",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 27,
+      "start": 10365,
+      "stop": 10522,
+      "initial_group": "c9dc41de1087c3a1",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 28,
+      "start": 10522,
+      "stop": 10738,
+      "initial_group": "806553ab64ab177e",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 29,
+      "start": 10738,
+      "stop": 10963,
+      "initial_group": "681c505d3fb54c67",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 30,
+      "start": 10963,
+      "stop": 11135,
+      "initial_group": "6fdbd794e0113956",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 31,
+      "start": 11135,
+      "stop": 11436,
+      "initial_group": "1202a0ec31f63232",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 32,
+      "start": 11436,
+      "stop": 11572,
+      "initial_group": "acbecd5ca88999c5",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 33,
+      "start": 11572,
+      "stop": 11817,
+      "initial_group": "72309fbfd1d685db",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 34,
+      "start": 11817,
+      "stop": 11991,
+      "initial_group": "853d96e0bccf850e",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 35,
+      "start": 11991,
+      "stop": 12236,
+      "initial_group": "cc44e27a2145df1b",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 36,
+      "start": 12236,
+      "stop": 12440,
+      "initial_group": "f583b5fa687f9d19",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 37,
+      "start": 12440,
+      "stop": 12661,
+      "initial_group": "05acc45d6f4baf2f",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 38,
+      "start": 12661,
+      "stop": 12814,
+      "initial_group": "47e64a57271393d7",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 39,
+      "start": 12814,
+      "stop": 12973,
+      "initial_group": "6ccaee7061c8ff3c",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 40,
+      "start": 12973,
+      "stop": 13185,
+      "initial_group": "d03dc9a14bbadecc",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 41,
+      "start": 13185,
+      "stop": 13344,
+      "initial_group": "4b71707aac8c950e",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 42,
+      "start": 13344,
+      "stop": 13541,
+      "initial_group": "f982ebd1762a3b01",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 43,
+      "start": 13541,
+      "stop": 13784,
+      "initial_group": "0a42c0ca0020fb04",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 44,
+      "start": 13784,
+      "stop": 13979,
+      "initial_group": "e203b25a4104d2e2",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 45,
+      "start": 13979,
+      "stop": 14102,
+      "initial_group": "a352def14e5bfed4",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 46,
+      "start": 14102,
+      "stop": 14292,
+      "initial_group": "92480d848a8e4daf",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 47,
+      "start": 14292,
+      "stop": 14416,
+      "initial_group": "e12d938877c97f12",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 48,
+      "start": 14416,
+      "stop": 14549,
+      "initial_group": "a7ecfddb7e4fa083",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 49,
+      "start": 14549,
+      "stop": 14694,
+      "initial_group": "f2d907bb903752bc",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 50,
+      "start": 14694,
+      "stop": 14784,
+      "initial_group": "31b26307ed2e26c7",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 51,
+      "start": 14784,
+      "stop": 14967,
+      "initial_group": "fcb9ba78a98f6bae",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 52,
+      "start": 14967,
+      "stop": 15137,
+      "initial_group": "6aafc1dcac24ff27",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 53,
+      "start": 15137,
+      "stop": 15326,
+      "initial_group": "f63b24a739844672",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 54,
+      "start": 15326,
+      "stop": 15488,
+      "initial_group": "8c0073c601897b2d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 55,
+      "start": 15488,
+      "stop": 15661,
+      "initial_group": "b631809e77418da8",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 56,
+      "start": 15661,
+      "stop": 15770,
+      "initial_group": "91891887f9fd6873",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 57,
+      "start": 15770,
+      "stop": 15839,
+      "initial_group": "97d00bbbb9027669",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 58,
+      "start": 15839,
+      "stop": 15960,
+      "initial_group": "d16359ba6ca6755a",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 59,
+      "start": 15960,
+      "stop": 16260,
+      "initial_group": "84a0835a558dc726",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 60,
+      "start": 16260,
+      "stop": 16384,
+      "initial_group": "a573a99ab1cd5d0c",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 61,
+      "start": 16384,
+      "stop": 16520,
+      "initial_group": "1dd9d6889268b771",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 62,
+      "start": 16520,
+      "stop": 16707,
+      "initial_group": "8fef68f616666282",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 63,
+      "start": 16707,
+      "stop": 16870,
+      "initial_group": "24406883192a1c99",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 64,
+      "start": 16870,
+      "stop": 17025,
+      "initial_group": "a9905213e1aeb5d3",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 65,
+      "start": 17025,
+      "stop": 17194,
+      "initial_group": "2133224495b49752",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 66,
+      "start": 17194,
+      "stop": 17391,
+      "initial_group": "097057498bda159d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 67,
+      "start": 17391,
+      "stop": 17633,
+      "initial_group": "9808d99d6332614e",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 68,
+      "start": 17633,
+      "stop": 17826,
+      "initial_group": "275b8a729f5ed80f",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 69,
+      "start": 17826,
+      "stop": 18035,
+      "initial_group": "f3e2ae989e1b79db",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 70,
+      "start": 18035,
+      "stop": 18184,
+      "initial_group": "eac7cd9cb6d5c8a8",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 71,
+      "start": 18184,
+      "stop": 18463,
+      "initial_group": "c63c8fac409cf48d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 72,
+      "start": 18463,
+      "stop": 18675,
+      "initial_group": "abe1dde77359c416",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 73,
+      "start": 18675,
+      "stop": 18813,
+      "initial_group": "5ba89a47ba4d5418",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 74,
+      "start": 18813,
+      "stop": 19079,
+      "initial_group": "3bfac720e1c65f29",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 75,
+      "start": 19079,
+      "stop": 19239,
+      "initial_group": "7efc45fb970f38f2",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 76,
+      "start": 19239,
+      "stop": 19402,
+      "initial_group": "e92a5543da57744c",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 77,
+      "start": 19402,
+      "stop": 19594,
+      "initial_group": "07727c5a5276ded7",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 78,
+      "start": 19594,
+      "stop": 19727,
+      "initial_group": "38c907065c4588dc",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 79,
+      "start": 19727,
+      "stop": 19923,
+      "initial_group": "190f7028c06fe7c4",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 80,
+      "start": 19923,
+      "stop": 20169,
+      "initial_group": "8989d99aa76fae65",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 81,
+      "start": 20169,
+      "stop": 20364,
+      "initial_group": "517766d4693e1bf5",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 82,
+      "start": 20364,
+      "stop": 20552,
+      "initial_group": "1a5c6ed13322800d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 83,
+      "start": 20552,
+      "stop": 20736,
+      "initial_group": "775134ceb4a8da4b",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 84,
+      "start": 20736,
+      "stop": 20906,
+      "initial_group": "235e29b28eb94408",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 85,
+      "start": 20906,
+      "stop": 21028,
+      "initial_group": "2ce02bdb0c204ac5",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 86,
+      "start": 21028,
+      "stop": 21190,
+      "initial_group": "0c41aec8b0a2f70a",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 87,
+      "start": 21190,
+      "stop": 21318,
+      "initial_group": "55185c77c4dcd34e",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 88,
+      "start": 21318,
+      "stop": 21541,
+      "initial_group": "5da50ef5b2ccf451",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 89,
+      "start": 21541,
+      "stop": 21729,
+      "initial_group": "3b3f9a68df0af57b",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 90,
+      "start": 21729,
+      "stop": 21845,
+      "initial_group": "06dead35db55b10c",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 91,
+      "start": 21845,
+      "stop": 21935,
+      "initial_group": "770afac7ea4aade4",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 92,
+      "start": 21935,
+      "stop": 22083,
+      "initial_group": "bcd804b38669b399",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 93,
+      "start": 22083,
+      "stop": 22213,
+      "initial_group": "015582556573d937",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 94,
+      "start": 22213,
+      "stop": 22351,
+      "initial_group": "206194dc0d0bc38a",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 95,
+      "start": 22351,
+      "stop": 22582,
+      "initial_group": "a80b7e2c7c268619",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 96,
+      "start": 22582,
+      "stop": 22746,
+      "initial_group": "91ad2fdcc581e404",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 97,
+      "start": 22746,
+      "stop": 22956,
+      "initial_group": "504f36abb7cdfc73",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 98,
+      "start": 22956,
+      "stop": 23147,
+      "initial_group": "f3cd9a25ceabc0e3",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 99,
+      "start": 23147,
+      "stop": 23266,
+      "initial_group": "4e96e921f127bf31",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 100,
+      "start": 23266,
+      "stop": 23496,
+      "initial_group": "1302f4e81c89a811",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 101,
+      "start": 23496,
+      "stop": 23680,
+      "initial_group": "b236c940532a79c2",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 102,
+      "start": 23680,
+      "stop": 23894,
+      "initial_group": "f47c65c38498f8ad",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 103,
+      "start": 23894,
+      "stop": 24009,
+      "initial_group": "a2e2bba4b490144d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 104,
+      "start": 24009,
+      "stop": 24135,
+      "initial_group": "e2c8c4450603e02f",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 105,
+      "start": 24135,
+      "stop": 24265,
+      "initial_group": "c10e6c26fb5af988",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 106,
+      "start": 24265,
+      "stop": 24522,
+      "initial_group": "78dfda81007ff692",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 107,
+      "start": 24522,
+      "stop": 24635,
+      "initial_group": "29478dc7552b847d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 108,
+      "start": 24635,
+      "stop": 24750,
+      "initial_group": "f8456811bc6fd305",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 109,
+      "start": 24750,
+      "stop": 24882,
+      "initial_group": "f223ef6ef747c665",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 110,
+      "start": 24882,
+      "stop": 25045,
+      "initial_group": "fdb756cd775d1b1d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 111,
+      "start": 25045,
+      "stop": 25256,
+      "initial_group": "9a6fdde0e779126e",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 112,
+      "start": 25256,
+      "stop": 25354,
+      "initial_group": "eb64f37b0dde4288",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 113,
+      "start": 25354,
+      "stop": 25499,
+      "initial_group": "37f495215c762601",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 114,
+      "start": 25499,
+      "stop": 25639,
+      "initial_group": "6b6c4c2230ae21b8",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 115,
+      "start": 25639,
+      "stop": 25825,
+      "initial_group": "97e84e115efae064",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 116,
+      "start": 25825,
+      "stop": 25965,
+      "initial_group": "9c8e22fde2981223",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 117,
+      "start": 25965,
+      "stop": 26096,
+      "initial_group": "73faf65454fa8c11",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 118,
+      "start": 26096,
+      "stop": 26263,
+      "initial_group": "df06d3c20520dffa",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 119,
+      "start": 26263,
+      "stop": 26463,
+      "initial_group": "bfc62d875396562d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 120,
+      "start": 26463,
+      "stop": 26623,
+      "initial_group": "88172af857487154",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 121,
+      "start": 26623,
+      "stop": 26831,
+      "initial_group": "8533a666a567254d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 122,
+      "start": 26831,
+      "stop": 27028,
+      "initial_group": "f72c863313ef6850",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 123,
+      "start": 27028,
+      "stop": 27176,
+      "initial_group": "d43bd67160771f93",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 124,
+      "start": 27176,
+      "stop": 27277,
+      "initial_group": "89c9829464efa6b8",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 125,
+      "start": 27277,
+      "stop": 27423,
+      "initial_group": "4b6ef2f31fc412e6",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 126,
+      "start": 27423,
+      "stop": 27566,
+      "initial_group": "d7bb3e1f239de40c",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 127,
+      "start": 27566,
+      "stop": 27712,
+      "initial_group": "4b51519b66e4edf0",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 128,
+      "start": 27712,
+      "stop": 28028,
+      "initial_group": "3fd6786d142eaf9b",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 129,
+      "start": 28028,
+      "stop": 28115,
+      "initial_group": "7052c11526254efc",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 130,
+      "start": 28115,
+      "stop": 28325,
+      "initial_group": "5818bcad5072cdd9",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 131,
+      "start": 28325,
+      "stop": 28445,
+      "initial_group": "356d6cab09be1d18",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 132,
+      "start": 28445,
+      "stop": 28517,
+      "initial_group": "e6c4b932046adfd4",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 133,
+      "start": 28517,
+      "stop": 28676,
+      "initial_group": "8d826468bc04c3c3",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 134,
+      "start": 28676,
+      "stop": 28783,
+      "initial_group": "e61de6fb20062895",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 135,
+      "start": 28783,
+      "stop": 28991,
+      "initial_group": "82c49088f4355360",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 136,
+      "start": 28991,
+      "stop": 29130,
+      "initial_group": "6c39d22c19a8f6c6",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 137,
+      "start": 29130,
+      "stop": 29336,
+      "initial_group": "132428ed8c05d6fd",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 138,
+      "start": 29336,
+      "stop": 29505,
+      "initial_group": "b7a6fd4353e131cc",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 139,
+      "start": 29505,
+      "stop": 29610,
+      "initial_group": "e10933571944d8ab",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 140,
+      "start": 29610,
+      "stop": 29746,
+      "initial_group": "ce4fe24b4700d446",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 141,
+      "start": 29746,
+      "stop": 29897,
+      "initial_group": "637f0c68ab9967bc",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 142,
+      "start": 29897,
+      "stop": 30040,
+      "initial_group": "8a3052d2a7bf2b6b",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 143,
+      "start": 30040,
+      "stop": 30256,
+      "initial_group": "31401d04ff53045e",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 144,
+      "start": 30256,
+      "stop": 30361,
+      "initial_group": "efa1dc587558d16f",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 145,
+      "start": 30361,
+      "stop": 30486,
+      "initial_group": "41530dcc87a95b18",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 0,
+      "start": 30486,
+      "stop": 30692,
+      "initial_group": "6ec8b46c5ba4d413",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 1,
+      "start": 30692,
+      "stop": 30813,
+      "initial_group": "332fd2324aa4aa3e",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 2,
+      "start": 30813,
+      "stop": 30936,
+      "initial_group": "ab7e6965059c5494",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 3,
+      "start": 30936,
+      "stop": 31060,
+      "initial_group": "c80184847737da64",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 4,
+      "start": 31060,
+      "stop": 31204,
+      "initial_group": "bd167f0e90119691",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 5,
+      "start": 31204,
+      "stop": 31328,
+      "initial_group": "0bb7fcbf50cc2a9d",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 6,
+      "start": 31328,
+      "stop": 31468,
+      "initial_group": "29a8206b066d56ab",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 7,
+      "start": 31468,
+      "stop": 31656,
+      "initial_group": "c795e16937a36abe",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 8,
+      "start": 31656,
+      "stop": 31824,
+      "initial_group": "3b3773abcb31af6a",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 9,
+      "start": 31824,
+      "stop": 31957,
+      "initial_group": "d4e4c78e60143d20",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 10,
+      "start": 31957,
+      "stop": 32055,
+      "initial_group": "e6801e9a77f2eaf8",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 11,
+      "start": 32055,
+      "stop": 32220,
+      "initial_group": "885f6f69fcb2c236",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 12,
+      "start": 32220,
+      "stop": 32346,
+      "initial_group": "dea7e28f098add3e",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 13,
+      "start": 32346,
+      "stop": 32463,
+      "initial_group": "eeb7305f7f64272b",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 14,
+      "start": 32463,
+      "stop": 32619,
+      "initial_group": "061c7cfa9d83177d",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 15,
+      "start": 32619,
+      "stop": 32749,
+      "initial_group": "7be14120edc362d0",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 16,
+      "start": 32749,
+      "stop": 32949,
+      "initial_group": "f721bbf434edf3b3",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 17,
+      "start": 32949,
+      "stop": 33059,
+      "initial_group": "6334b97246f36e73",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 18,
+      "start": 33059,
+      "stop": 33192,
+      "initial_group": "5c295f86d589350c",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 19,
+      "start": 33192,
+      "stop": 33313,
+      "initial_group": "9fd44ba1ff1d09e9",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 20,
+      "start": 33313,
+      "stop": 33485,
+      "initial_group": "822889ce8f43423b",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 21,
+      "start": 33485,
+      "stop": 33641,
+      "initial_group": "60d4692599b82b62",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 22,
+      "start": 33641,
+      "stop": 33780,
+      "initial_group": "969811b7e932bd41",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 23,
+      "start": 33780,
+      "stop": 33984,
+      "initial_group": "23a1a86dad0041a7",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 24,
+      "start": 33984,
+      "stop": 34229,
+      "initial_group": "e65f50ebc043812b",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 25,
+      "start": 34229,
+      "stop": 34301,
+      "initial_group": "275b142f9cf3e171",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 26,
+      "start": 34301,
+      "stop": 34433,
+      "initial_group": "9aace8ba1f8ad2e9",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 27,
+      "start": 34433,
+      "stop": 34554,
+      "initial_group": "c9dc41de1087c3a1",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 28,
+      "start": 34554,
+      "stop": 34687,
+      "initial_group": "806553ab64ab177e",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 29,
+      "start": 34687,
+      "stop": 34926,
+      "initial_group": "681c505d3fb54c67",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 30,
+      "start": 34926,
+      "stop": 35068,
+      "initial_group": "6fdbd794e0113956",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 31,
+      "start": 35068,
+      "stop": 35172,
+      "initial_group": "1202a0ec31f63232",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 32,
+      "start": 35172,
+      "stop": 35320,
+      "initial_group": "acbecd5ca88999c5",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 33,
+      "start": 35320,
+      "stop": 35484,
+      "initial_group": "72309fbfd1d685db",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 34,
+      "start": 35484,
+      "stop": 35622,
+      "initial_group": "853d96e0bccf850e",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 35,
+      "start": 35622,
+      "stop": 35805,
+      "initial_group": "cc44e27a2145df1b",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 36,
+      "start": 35805,
+      "stop": 35914,
+      "initial_group": "f583b5fa687f9d19",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 37,
+      "start": 35914,
+      "stop": 36046,
+      "initial_group": "05acc45d6f4baf2f",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 38,
+      "start": 36046,
+      "stop": 36178,
+      "initial_group": "47e64a57271393d7",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 39,
+      "start": 36178,
+      "stop": 36313,
+      "initial_group": "6ccaee7061c8ff3c",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 40,
+      "start": 36313,
+      "stop": 36441,
+      "initial_group": "d03dc9a14bbadecc",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 41,
+      "start": 36441,
+      "stop": 36627,
+      "initial_group": "4b71707aac8c950e",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 42,
+      "start": 36627,
+      "stop": 36766,
+      "initial_group": "f982ebd1762a3b01",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 43,
+      "start": 36766,
+      "stop": 36899,
+      "initial_group": "0a42c0ca0020fb04",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 44,
+      "start": 36899,
+      "stop": 37075,
+      "initial_group": "e203b25a4104d2e2",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 45,
+      "start": 37075,
+      "stop": 37213,
+      "initial_group": "a352def14e5bfed4",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 46,
+      "start": 37213,
+      "stop": 37375,
+      "initial_group": "92480d848a8e4daf",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 47,
+      "start": 37375,
+      "stop": 37534,
+      "initial_group": "e12d938877c97f12",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 48,
+      "start": 37534,
+      "stop": 37624,
+      "initial_group": "a7ecfddb7e4fa083",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 49,
+      "start": 37624,
+      "stop": 37777,
+      "initial_group": "f2d907bb903752bc",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 50,
+      "start": 37777,
+      "stop": 37894,
+      "initial_group": "31b26307ed2e26c7",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 51,
+      "start": 37894,
+      "stop": 38076,
+      "initial_group": "fcb9ba78a98f6bae",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 52,
+      "start": 38076,
+      "stop": 38252,
+      "initial_group": "6aafc1dcac24ff27",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 53,
+      "start": 38252,
+      "stop": 38464,
+      "initial_group": "f63b24a739844672",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 54,
+      "start": 38464,
+      "stop": 38590,
+      "initial_group": "8c0073c601897b2d",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 55,
+      "start": 38590,
+      "stop": 38719,
+      "initial_group": "b631809e77418da8",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 56,
+      "start": 38719,
+      "stop": 38814,
+      "initial_group": "91891887f9fd6873",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 57,
+      "start": 38814,
+      "stop": 38957,
+      "initial_group": "97d00bbbb9027669",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 58,
+      "start": 38957,
+      "stop": 39089,
+      "initial_group": "d16359ba6ca6755a",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 59,
+      "start": 39089,
+      "stop": 39277,
+      "initial_group": "84a0835a558dc726",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 60,
+      "start": 39277,
+      "stop": 39329,
+      "initial_group": "a573a99ab1cd5d0c",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 61,
+      "start": 39329,
+      "stop": 39480,
+      "initial_group": "1dd9d6889268b771",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 62,
+      "start": 39480,
+      "stop": 39665,
+      "initial_group": "8fef68f616666282",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 63,
+      "start": 39665,
+      "stop": 39787,
+      "initial_group": "24406883192a1c99",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 64,
+      "start": 39787,
+      "stop": 39920,
+      "initial_group": "a9905213e1aeb5d3",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 65,
+      "start": 39920,
+      "stop": 39984,
+      "initial_group": "2133224495b49752",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 66,
+      "start": 39984,
+      "stop": 40069,
+      "initial_group": "097057498bda159d",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 67,
+      "start": 40069,
+      "stop": 40216,
+      "initial_group": "9808d99d6332614e",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 68,
+      "start": 40216,
+      "stop": 40322,
+      "initial_group": "275b8a729f5ed80f",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 69,
+      "start": 40322,
+      "stop": 40480,
+      "initial_group": "f3e2ae989e1b79db",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 70,
+      "start": 40480,
+      "stop": 40630,
+      "initial_group": "eac7cd9cb6d5c8a8",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 71,
+      "start": 40630,
+      "stop": 40794,
+      "initial_group": "c63c8fac409cf48d",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 72,
+      "start": 40794,
+      "stop": 40946,
+      "initial_group": "abe1dde77359c416",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 73,
+      "start": 40946,
+      "stop": 41017,
+      "initial_group": "5ba89a47ba4d5418",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 74,
+      "start": 41017,
+      "stop": 41126,
+      "initial_group": "3bfac720e1c65f29",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 75,
+      "start": 41126,
+      "stop": 41239,
+      "initial_group": "7efc45fb970f38f2",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 76,
+      "start": 41239,
+      "stop": 41411,
+      "initial_group": "e92a5543da57744c",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 77,
+      "start": 41411,
+      "stop": 41582,
+      "initial_group": "07727c5a5276ded7",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "val",
+      "seen_in_pretraining": false
+    }
+  ],
+  "training_episodes": [
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 1,
+      "start": 1133,
+      "stop": 4681,
+      "initial_group": "332fd2324aa4aa3e",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 2,
+      "start": 4681,
+      "stop": 4978,
+      "initial_group": "ab7e6965059c5494",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 3,
+      "start": 4978,
+      "stop": 5194,
+      "initial_group": "c80184847737da64",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 4,
+      "start": 5194,
+      "stop": 5373,
+      "initial_group": "bd167f0e90119691",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 5,
+      "start": 5373,
+      "stop": 5673,
+      "initial_group": "0bb7fcbf50cc2a9d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 6,
+      "start": 5673,
+      "stop": 5955,
+      "initial_group": "29a8206b066d56ab",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 8,
+      "start": 6392,
+      "stop": 6581,
+      "initial_group": "3b3773abcb31af6a",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 9,
+      "start": 6581,
+      "stop": 6815,
+      "initial_group": "d4e4c78e60143d20",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 10,
+      "start": 6815,
+      "stop": 7081,
+      "initial_group": "e6801e9a77f2eaf8",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 11,
+      "start": 7081,
+      "stop": 7361,
+      "initial_group": "885f6f69fcb2c236",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 12,
+      "start": 7361,
+      "stop": 7576,
+      "initial_group": "dea7e28f098add3e",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 13,
+      "start": 7576,
+      "stop": 7804,
+      "initial_group": "eeb7305f7f64272b",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 15,
+      "start": 8053,
+      "stop": 8312,
+      "initial_group": "7be14120edc362d0",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 16,
+      "start": 8312,
+      "stop": 8543,
+      "initial_group": "f721bbf434edf3b3",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 17,
+      "start": 8543,
+      "stop": 8684,
+      "initial_group": "6334b97246f36e73",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 18,
+      "start": 8684,
+      "stop": 8798,
+      "initial_group": "5c295f86d589350c",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 19,
+      "start": 8798,
+      "stop": 9037,
+      "initial_group": "9fd44ba1ff1d09e9",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 20,
+      "start": 9037,
+      "stop": 9352,
+      "initial_group": "822889ce8f43423b",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 21,
+      "start": 9352,
+      "stop": 9554,
+      "initial_group": "60d4692599b82b62",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 22,
+      "start": 9554,
+      "stop": 9686,
+      "initial_group": "969811b7e932bd41",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 23,
+      "start": 9686,
+      "stop": 9891,
+      "initial_group": "23a1a86dad0041a7",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 24,
+      "start": 9891,
+      "stop": 10045,
+      "initial_group": "e65f50ebc043812b",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 26,
+      "start": 10157,
+      "stop": 10365,
+      "initial_group": "9aace8ba1f8ad2e9",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 27,
+      "start": 10365,
+      "stop": 10522,
+      "initial_group": "c9dc41de1087c3a1",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 28,
+      "start": 10522,
+      "stop": 10738,
+      "initial_group": "806553ab64ab177e",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 29,
+      "start": 10738,
+      "stop": 10963,
+      "initial_group": "681c505d3fb54c67",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 30,
+      "start": 10963,
+      "stop": 11135,
+      "initial_group": "6fdbd794e0113956",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 31,
+      "start": 11135,
+      "stop": 11436,
+      "initial_group": "1202a0ec31f63232",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 32,
+      "start": 11436,
+      "stop": 11572,
+      "initial_group": "acbecd5ca88999c5",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 33,
+      "start": 11572,
+      "stop": 11817,
+      "initial_group": "72309fbfd1d685db",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 34,
+      "start": 11817,
+      "stop": 11991,
+      "initial_group": "853d96e0bccf850e",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 36,
+      "start": 12236,
+      "stop": 12440,
+      "initial_group": "f583b5fa687f9d19",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 37,
+      "start": 12440,
+      "stop": 12661,
+      "initial_group": "05acc45d6f4baf2f",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 38,
+      "start": 12661,
+      "stop": 12814,
+      "initial_group": "47e64a57271393d7",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 39,
+      "start": 12814,
+      "stop": 12973,
+      "initial_group": "6ccaee7061c8ff3c",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 40,
+      "start": 12973,
+      "stop": 13185,
+      "initial_group": "d03dc9a14bbadecc",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 41,
+      "start": 13185,
+      "stop": 13344,
+      "initial_group": "4b71707aac8c950e",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 42,
+      "start": 13344,
+      "stop": 13541,
+      "initial_group": "f982ebd1762a3b01",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 43,
+      "start": 13541,
+      "stop": 13784,
+      "initial_group": "0a42c0ca0020fb04",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 44,
+      "start": 13784,
+      "stop": 13979,
+      "initial_group": "e203b25a4104d2e2",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 45,
+      "start": 13979,
+      "stop": 14102,
+      "initial_group": "a352def14e5bfed4",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 46,
+      "start": 14102,
+      "stop": 14292,
+      "initial_group": "92480d848a8e4daf",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 47,
+      "start": 14292,
+      "stop": 14416,
+      "initial_group": "e12d938877c97f12",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 48,
+      "start": 14416,
+      "stop": 14549,
+      "initial_group": "a7ecfddb7e4fa083",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 49,
+      "start": 14549,
+      "stop": 14694,
+      "initial_group": "f2d907bb903752bc",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 50,
+      "start": 14694,
+      "stop": 14784,
+      "initial_group": "31b26307ed2e26c7",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 51,
+      "start": 14784,
+      "stop": 14967,
+      "initial_group": "fcb9ba78a98f6bae",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 52,
+      "start": 14967,
+      "stop": 15137,
+      "initial_group": "6aafc1dcac24ff27",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 53,
+      "start": 15137,
+      "stop": 15326,
+      "initial_group": "f63b24a739844672",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 54,
+      "start": 15326,
+      "stop": 15488,
+      "initial_group": "8c0073c601897b2d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 56,
+      "start": 15661,
+      "stop": 15770,
+      "initial_group": "91891887f9fd6873",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 57,
+      "start": 15770,
+      "stop": 15839,
+      "initial_group": "97d00bbbb9027669",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 58,
+      "start": 15839,
+      "stop": 15960,
+      "initial_group": "d16359ba6ca6755a",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 59,
+      "start": 15960,
+      "stop": 16260,
+      "initial_group": "84a0835a558dc726",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 60,
+      "start": 16260,
+      "stop": 16384,
+      "initial_group": "a573a99ab1cd5d0c",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 61,
+      "start": 16384,
+      "stop": 16520,
+      "initial_group": "1dd9d6889268b771",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 62,
+      "start": 16520,
+      "stop": 16707,
+      "initial_group": "8fef68f616666282",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 63,
+      "start": 16707,
+      "stop": 16870,
+      "initial_group": "24406883192a1c99",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 64,
+      "start": 16870,
+      "stop": 17025,
+      "initial_group": "a9905213e1aeb5d3",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 65,
+      "start": 17025,
+      "stop": 17194,
+      "initial_group": "2133224495b49752",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 66,
+      "start": 17194,
+      "stop": 17391,
+      "initial_group": "097057498bda159d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 67,
+      "start": 17391,
+      "stop": 17633,
+      "initial_group": "9808d99d6332614e",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 68,
+      "start": 17633,
+      "stop": 17826,
+      "initial_group": "275b8a729f5ed80f",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 69,
+      "start": 17826,
+      "stop": 18035,
+      "initial_group": "f3e2ae989e1b79db",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 70,
+      "start": 18035,
+      "stop": 18184,
+      "initial_group": "eac7cd9cb6d5c8a8",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 73,
+      "start": 18675,
+      "stop": 18813,
+      "initial_group": "5ba89a47ba4d5418",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 75,
+      "start": 19079,
+      "stop": 19239,
+      "initial_group": "7efc45fb970f38f2",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 76,
+      "start": 19239,
+      "stop": 19402,
+      "initial_group": "e92a5543da57744c",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 78,
+      "start": 19594,
+      "stop": 19727,
+      "initial_group": "38c907065c4588dc",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 79,
+      "start": 19727,
+      "stop": 19923,
+      "initial_group": "190f7028c06fe7c4",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 80,
+      "start": 19923,
+      "stop": 20169,
+      "initial_group": "8989d99aa76fae65",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 81,
+      "start": 20169,
+      "stop": 20364,
+      "initial_group": "517766d4693e1bf5",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 82,
+      "start": 20364,
+      "stop": 20552,
+      "initial_group": "1a5c6ed13322800d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 83,
+      "start": 20552,
+      "stop": 20736,
+      "initial_group": "775134ceb4a8da4b",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 84,
+      "start": 20736,
+      "stop": 20906,
+      "initial_group": "235e29b28eb94408",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 85,
+      "start": 20906,
+      "stop": 21028,
+      "initial_group": "2ce02bdb0c204ac5",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 86,
+      "start": 21028,
+      "stop": 21190,
+      "initial_group": "0c41aec8b0a2f70a",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 87,
+      "start": 21190,
+      "stop": 21318,
+      "initial_group": "55185c77c4dcd34e",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 88,
+      "start": 21318,
+      "stop": 21541,
+      "initial_group": "5da50ef5b2ccf451",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 89,
+      "start": 21541,
+      "stop": 21729,
+      "initial_group": "3b3f9a68df0af57b",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 91,
+      "start": 21845,
+      "stop": 21935,
+      "initial_group": "770afac7ea4aade4",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 92,
+      "start": 21935,
+      "stop": 22083,
+      "initial_group": "bcd804b38669b399",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 93,
+      "start": 22083,
+      "stop": 22213,
+      "initial_group": "015582556573d937",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 94,
+      "start": 22213,
+      "stop": 22351,
+      "initial_group": "206194dc0d0bc38a",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 95,
+      "start": 22351,
+      "stop": 22582,
+      "initial_group": "a80b7e2c7c268619",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 96,
+      "start": 22582,
+      "stop": 22746,
+      "initial_group": "91ad2fdcc581e404",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 97,
+      "start": 22746,
+      "stop": 22956,
+      "initial_group": "504f36abb7cdfc73",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 98,
+      "start": 22956,
+      "stop": 23147,
+      "initial_group": "f3cd9a25ceabc0e3",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 99,
+      "start": 23147,
+      "stop": 23266,
+      "initial_group": "4e96e921f127bf31",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 100,
+      "start": 23266,
+      "stop": 23496,
+      "initial_group": "1302f4e81c89a811",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 101,
+      "start": 23496,
+      "stop": 23680,
+      "initial_group": "b236c940532a79c2",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 102,
+      "start": 23680,
+      "stop": 23894,
+      "initial_group": "f47c65c38498f8ad",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 103,
+      "start": 23894,
+      "stop": 24009,
+      "initial_group": "a2e2bba4b490144d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 104,
+      "start": 24009,
+      "stop": 24135,
+      "initial_group": "e2c8c4450603e02f",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 105,
+      "start": 24135,
+      "stop": 24265,
+      "initial_group": "c10e6c26fb5af988",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 106,
+      "start": 24265,
+      "stop": 24522,
+      "initial_group": "78dfda81007ff692",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 107,
+      "start": 24522,
+      "stop": 24635,
+      "initial_group": "29478dc7552b847d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 108,
+      "start": 24635,
+      "stop": 24750,
+      "initial_group": "f8456811bc6fd305",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 109,
+      "start": 24750,
+      "stop": 24882,
+      "initial_group": "f223ef6ef747c665",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 110,
+      "start": 24882,
+      "stop": 25045,
+      "initial_group": "fdb756cd775d1b1d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 111,
+      "start": 25045,
+      "stop": 25256,
+      "initial_group": "9a6fdde0e779126e",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 113,
+      "start": 25354,
+      "stop": 25499,
+      "initial_group": "37f495215c762601",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 114,
+      "start": 25499,
+      "stop": 25639,
+      "initial_group": "6b6c4c2230ae21b8",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 115,
+      "start": 25639,
+      "stop": 25825,
+      "initial_group": "97e84e115efae064",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 116,
+      "start": 25825,
+      "stop": 25965,
+      "initial_group": "9c8e22fde2981223",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 117,
+      "start": 25965,
+      "stop": 26096,
+      "initial_group": "73faf65454fa8c11",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 118,
+      "start": 26096,
+      "stop": 26263,
+      "initial_group": "df06d3c20520dffa",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 119,
+      "start": 26263,
+      "stop": 26463,
+      "initial_group": "bfc62d875396562d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 120,
+      "start": 26463,
+      "stop": 26623,
+      "initial_group": "88172af857487154",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 121,
+      "start": 26623,
+      "stop": 26831,
+      "initial_group": "8533a666a567254d",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 122,
+      "start": 26831,
+      "stop": 27028,
+      "initial_group": "f72c863313ef6850",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 123,
+      "start": 27028,
+      "stop": 27176,
+      "initial_group": "d43bd67160771f93",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 124,
+      "start": 27176,
+      "stop": 27277,
+      "initial_group": "89c9829464efa6b8",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 125,
+      "start": 27277,
+      "stop": 27423,
+      "initial_group": "4b6ef2f31fc412e6",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 126,
+      "start": 27423,
+      "stop": 27566,
+      "initial_group": "d7bb3e1f239de40c",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 127,
+      "start": 27566,
+      "stop": 27712,
+      "initial_group": "4b51519b66e4edf0",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 128,
+      "start": 27712,
+      "stop": 28028,
+      "initial_group": "3fd6786d142eaf9b",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 129,
+      "start": 28028,
+      "stop": 28115,
+      "initial_group": "7052c11526254efc",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 130,
+      "start": 28115,
+      "stop": 28325,
+      "initial_group": "5818bcad5072cdd9",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 131,
+      "start": 28325,
+      "stop": 28445,
+      "initial_group": "356d6cab09be1d18",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 134,
+      "start": 28676,
+      "stop": 28783,
+      "initial_group": "e61de6fb20062895",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 135,
+      "start": 28783,
+      "stop": 28991,
+      "initial_group": "82c49088f4355360",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 136,
+      "start": 28991,
+      "stop": 29130,
+      "initial_group": "6c39d22c19a8f6c6",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 137,
+      "start": 29130,
+      "stop": 29336,
+      "initial_group": "132428ed8c05d6fd",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 138,
+      "start": 29336,
+      "stop": 29505,
+      "initial_group": "b7a6fd4353e131cc",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 139,
+      "start": 29505,
+      "stop": 29610,
+      "initial_group": "e10933571944d8ab",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 140,
+      "start": 29610,
+      "stop": 29746,
+      "initial_group": "ce4fe24b4700d446",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 141,
+      "start": 29746,
+      "stop": 29897,
+      "initial_group": "637f0c68ab9967bc",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 142,
+      "start": 29897,
+      "stop": 30040,
+      "initial_group": "8a3052d2a7bf2b6b",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 144,
+      "start": 30256,
+      "stop": 30361,
+      "initial_group": "efa1dc587558d16f",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "id": 145,
+      "start": 30361,
+      "stop": 30486,
+      "initial_group": "41530dcc87a95b18",
+      "dataset_signature": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 1,
+      "start": 30692,
+      "stop": 30813,
+      "initial_group": "332fd2324aa4aa3e",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 2,
+      "start": 30813,
+      "stop": 30936,
+      "initial_group": "ab7e6965059c5494",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 3,
+      "start": 30936,
+      "stop": 31060,
+      "initial_group": "c80184847737da64",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 4,
+      "start": 31060,
+      "stop": 31204,
+      "initial_group": "bd167f0e90119691",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 5,
+      "start": 31204,
+      "stop": 31328,
+      "initial_group": "0bb7fcbf50cc2a9d",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 6,
+      "start": 31328,
+      "stop": 31468,
+      "initial_group": "29a8206b066d56ab",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 8,
+      "start": 31656,
+      "stop": 31824,
+      "initial_group": "3b3773abcb31af6a",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 9,
+      "start": 31824,
+      "stop": 31957,
+      "initial_group": "d4e4c78e60143d20",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 10,
+      "start": 31957,
+      "stop": 32055,
+      "initial_group": "e6801e9a77f2eaf8",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 11,
+      "start": 32055,
+      "stop": 32220,
+      "initial_group": "885f6f69fcb2c236",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 12,
+      "start": 32220,
+      "stop": 32346,
+      "initial_group": "dea7e28f098add3e",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 13,
+      "start": 32346,
+      "stop": 32463,
+      "initial_group": "eeb7305f7f64272b",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 15,
+      "start": 32619,
+      "stop": 32749,
+      "initial_group": "7be14120edc362d0",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 16,
+      "start": 32749,
+      "stop": 32949,
+      "initial_group": "f721bbf434edf3b3",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 17,
+      "start": 32949,
+      "stop": 33059,
+      "initial_group": "6334b97246f36e73",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 18,
+      "start": 33059,
+      "stop": 33192,
+      "initial_group": "5c295f86d589350c",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 19,
+      "start": 33192,
+      "stop": 33313,
+      "initial_group": "9fd44ba1ff1d09e9",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 20,
+      "start": 33313,
+      "stop": 33485,
+      "initial_group": "822889ce8f43423b",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 21,
+      "start": 33485,
+      "stop": 33641,
+      "initial_group": "60d4692599b82b62",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 22,
+      "start": 33641,
+      "stop": 33780,
+      "initial_group": "969811b7e932bd41",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 23,
+      "start": 33780,
+      "stop": 33984,
+      "initial_group": "23a1a86dad0041a7",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 24,
+      "start": 33984,
+      "stop": 34229,
+      "initial_group": "e65f50ebc043812b",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 26,
+      "start": 34301,
+      "stop": 34433,
+      "initial_group": "9aace8ba1f8ad2e9",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 27,
+      "start": 34433,
+      "stop": 34554,
+      "initial_group": "c9dc41de1087c3a1",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 28,
+      "start": 34554,
+      "stop": 34687,
+      "initial_group": "806553ab64ab177e",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 29,
+      "start": 34687,
+      "stop": 34926,
+      "initial_group": "681c505d3fb54c67",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 30,
+      "start": 34926,
+      "stop": 35068,
+      "initial_group": "6fdbd794e0113956",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 31,
+      "start": 35068,
+      "stop": 35172,
+      "initial_group": "1202a0ec31f63232",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 32,
+      "start": 35172,
+      "stop": 35320,
+      "initial_group": "acbecd5ca88999c5",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 33,
+      "start": 35320,
+      "stop": 35484,
+      "initial_group": "72309fbfd1d685db",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 34,
+      "start": 35484,
+      "stop": 35622,
+      "initial_group": "853d96e0bccf850e",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 36,
+      "start": 35805,
+      "stop": 35914,
+      "initial_group": "f583b5fa687f9d19",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 37,
+      "start": 35914,
+      "stop": 36046,
+      "initial_group": "05acc45d6f4baf2f",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 38,
+      "start": 36046,
+      "stop": 36178,
+      "initial_group": "47e64a57271393d7",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 39,
+      "start": 36178,
+      "stop": 36313,
+      "initial_group": "6ccaee7061c8ff3c",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 40,
+      "start": 36313,
+      "stop": 36441,
+      "initial_group": "d03dc9a14bbadecc",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 41,
+      "start": 36441,
+      "stop": 36627,
+      "initial_group": "4b71707aac8c950e",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 42,
+      "start": 36627,
+      "stop": 36766,
+      "initial_group": "f982ebd1762a3b01",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 43,
+      "start": 36766,
+      "stop": 36899,
+      "initial_group": "0a42c0ca0020fb04",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 44,
+      "start": 36899,
+      "stop": 37075,
+      "initial_group": "e203b25a4104d2e2",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 45,
+      "start": 37075,
+      "stop": 37213,
+      "initial_group": "a352def14e5bfed4",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 46,
+      "start": 37213,
+      "stop": 37375,
+      "initial_group": "92480d848a8e4daf",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 47,
+      "start": 37375,
+      "stop": 37534,
+      "initial_group": "e12d938877c97f12",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 48,
+      "start": 37534,
+      "stop": 37624,
+      "initial_group": "a7ecfddb7e4fa083",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 49,
+      "start": 37624,
+      "stop": 37777,
+      "initial_group": "f2d907bb903752bc",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 50,
+      "start": 37777,
+      "stop": 37894,
+      "initial_group": "31b26307ed2e26c7",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 51,
+      "start": 37894,
+      "stop": 38076,
+      "initial_group": "fcb9ba78a98f6bae",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 52,
+      "start": 38076,
+      "stop": 38252,
+      "initial_group": "6aafc1dcac24ff27",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 53,
+      "start": 38252,
+      "stop": 38464,
+      "initial_group": "f63b24a739844672",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 54,
+      "start": 38464,
+      "stop": 38590,
+      "initial_group": "8c0073c601897b2d",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 56,
+      "start": 38719,
+      "stop": 38814,
+      "initial_group": "91891887f9fd6873",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 57,
+      "start": 38814,
+      "stop": 38957,
+      "initial_group": "97d00bbbb9027669",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 58,
+      "start": 38957,
+      "stop": 39089,
+      "initial_group": "d16359ba6ca6755a",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 59,
+      "start": 39089,
+      "stop": 39277,
+      "initial_group": "84a0835a558dc726",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 60,
+      "start": 39277,
+      "stop": 39329,
+      "initial_group": "a573a99ab1cd5d0c",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 61,
+      "start": 39329,
+      "stop": 39480,
+      "initial_group": "1dd9d6889268b771",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 62,
+      "start": 39480,
+      "stop": 39665,
+      "initial_group": "8fef68f616666282",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 63,
+      "start": 39665,
+      "stop": 39787,
+      "initial_group": "24406883192a1c99",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 64,
+      "start": 39787,
+      "stop": 39920,
+      "initial_group": "a9905213e1aeb5d3",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 65,
+      "start": 39920,
+      "stop": 39984,
+      "initial_group": "2133224495b49752",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 66,
+      "start": 39984,
+      "stop": 40069,
+      "initial_group": "097057498bda159d",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 67,
+      "start": 40069,
+      "stop": 40216,
+      "initial_group": "9808d99d6332614e",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 68,
+      "start": 40216,
+      "stop": 40322,
+      "initial_group": "275b8a729f5ed80f",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 69,
+      "start": 40322,
+      "stop": 40480,
+      "initial_group": "f3e2ae989e1b79db",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 70,
+      "start": 40480,
+      "stop": 40630,
+      "initial_group": "eac7cd9cb6d5c8a8",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 73,
+      "start": 40946,
+      "stop": 41017,
+      "initial_group": "5ba89a47ba4d5418",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 75,
+      "start": 41126,
+      "stop": 41239,
+      "initial_group": "7efc45fb970f38f2",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    },
+    {
+      "source": "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr",
+      "id": 76,
+      "start": 41239,
+      "stop": 41411,
+      "initial_group": "e92a5543da57744c",
+      "dataset_signature": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f",
+      "split": "train",
+      "seen_in_pretraining": false
+    }
+  ],
+  "validation_is_heldout": true,
+  "pretrained_checkpoint": null,
+  "data_config": {
+    "control_hz": 10.0,
+    "val_ratio": 0.1,
+    "seed": 42,
+    "split_strategy": "initial_pose_groups",
+    "sources": [
+      "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr",
+      "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr"
+    ],
+    "dataset_signatures": {
+      "/home/thanh/AI-application/pusht-research/data/demonstrations/pusht_demo.zarr": "bb55bff8df4c5ea9b32817b2d5a15456ffc278c2faea822dce712309fd567d0f",
+      "/home/thanh/AI-application/pusht-research/data/demonstrations/demo_actions_v1.zarr": "3b474b9a8117e0866b21c507c33283058a42fa3b891d78e326f8ba9569e04e0f"
+    }
+  },
+  "training_config": {
+    "epochs": 200,
+    "batch_size": 256,
+    "lr": 0.001,
+    "seed": 42,
+    "device": "cpu",
+    "torch_threads": 1,
+    "data_pkl": null,
+    "architecture": "contact_local_v2"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.2312956582957233,
+      "val_loss": 0.1233883947134018
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.08445123520038843,
+      "val_loss": 0.08613570034503937
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.06486871993034163,
+      "val_loss": 0.07345624268054962
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.05786808462051812,
+      "val_loss": 0.07072694599628448
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.053611944323040193,
+      "val_loss": 0.06862672418355942
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.050761403344169315,
+      "val_loss": 0.06588715314865112
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.048069623167809584,
+      "val_loss": 0.0642610415816307
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.04555938304950183,
+      "val_loss": 0.061810579150915146
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.04290063243089277,
+      "val_loss": 0.058585960417985916
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.040873656037331604,
+      "val_loss": 0.05569703131914139
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.038541866291420014,
+      "val_loss": 0.054653141647577286
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.03680898542821842,
+      "val_loss": 0.052544981241226196
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.035365085151093635,
+      "val_loss": 0.05084434524178505
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.03297234831872196,
+      "val_loss": 0.04979196935892105
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.03187373240360073,
+      "val_loss": 0.046381670981645584
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.030301198934126465,
+      "val_loss": 0.044752951711416245
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.02904623449525408,
+      "val_loss": 0.04351217672228813
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.027200155393253954,
+      "val_loss": 0.04140627384185791
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.026579523051509738,
+      "val_loss": 0.040379490703344345
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.02565152316853996,
+      "val_loss": 0.03836289793252945
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.025629112736302317,
+      "val_loss": 0.03861610218882561
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.024638823922631163,
+      "val_loss": 0.0370209738612175
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.02352380861113126,
+      "val_loss": 0.03629308193922043
+    },
+    {
+      "epoch": 24,
+      "train_loss": 0.022199425948256003,
+      "val_loss": 0.035947639495134354
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.02175916243107291,
+      "val_loss": 0.03394784405827522
+    },
+    {
+      "epoch": 26,
+      "train_loss": 0.021140186084756023,
+      "val_loss": 0.034596510231494904
+    },
+    {
+      "epoch": 27,
+      "train_loss": 0.020547465394845896,
+      "val_loss": 0.03227847069501877
+    },
+    {
+      "epoch": 28,
+      "train_loss": 0.02008558842429027,
+      "val_loss": 0.031809404492378235
+    },
+    {
+      "epoch": 29,
+      "train_loss": 0.01973419257617614,
+      "val_loss": 0.0315532423555851
+    },
+    {
+      "epoch": 30,
+      "train_loss": 0.01902656968179228,
+      "val_loss": 0.032327815890312195
+    },
+    {
+      "epoch": 31,
+      "train_loss": 0.019169847903568835,
+      "val_loss": 0.03277234360575676
+    },
+    {
+      "epoch": 32,
+      "train_loss": 0.019384565481967653,
+      "val_loss": 0.02984711155295372
+    },
+    {
+      "epoch": 33,
+      "train_loss": 0.018340602932712592,
+      "val_loss": 0.02992279827594757
+    },
+    {
+      "epoch": 34,
+      "train_loss": 0.017780089452968603,
+      "val_loss": 0.02889464981853962
+    },
+    {
+      "epoch": 35,
+      "train_loss": 0.017096591581576826,
+      "val_loss": 0.029048262163996696
+    },
+    {
+      "epoch": 36,
+      "train_loss": 0.016844400946527675,
+      "val_loss": 0.028772979974746704
+    },
+    {
+      "epoch": 37,
+      "train_loss": 0.016700016639368237,
+      "val_loss": 0.028152093291282654
+    },
+    {
+      "epoch": 38,
+      "train_loss": 0.01602717897235507,
+      "val_loss": 0.02861945703625679
+    },
+    {
+      "epoch": 39,
+      "train_loss": 0.016151639116909196,
+      "val_loss": 0.027148017659783363
+    },
+    {
+      "epoch": 40,
+      "train_loss": 0.015796284540705564,
+      "val_loss": 0.028068281710147858
+    },
+    {
+      "epoch": 41,
+      "train_loss": 0.01537216819878625,
+      "val_loss": 0.027039537206292152
+    },
+    {
+      "epoch": 42,
+      "train_loss": 0.015770704651715046,
+      "val_loss": 0.026561561971902847
+    },
+    {
+      "epoch": 43,
+      "train_loss": 0.0148488755697045,
+      "val_loss": 0.02671418897807598
+    },
+    {
+      "epoch": 44,
+      "train_loss": 0.014404220789157826,
+      "val_loss": 0.02558024786412716
+    },
+    {
+      "epoch": 45,
+      "train_loss": 0.014258667225005793,
+      "val_loss": 0.025708019733428955
+    },
+    {
+      "epoch": 46,
+      "train_loss": 0.014166367168118926,
+      "val_loss": 0.025648869574069977
+    },
+    {
+      "epoch": 47,
+      "train_loss": 0.01366858970129038,
+      "val_loss": 0.026872891932725906
+    },
+    {
+      "epoch": 48,
+      "train_loss": 0.014008161969591978,
+      "val_loss": 0.024846553802490234
+    },
+    {
+      "epoch": 49,
+      "train_loss": 0.013277638042001593,
+      "val_loss": 0.02454417757689953
+    },
+    {
+      "epoch": 50,
+      "train_loss": 0.0131411948711184,
+      "val_loss": 0.02460927702486515
+    },
+    {
+      "epoch": 51,
+      "train_loss": 0.012888345281627906,
+      "val_loss": 0.02542322315275669
+    },
+    {
+      "epoch": 52,
+      "train_loss": 0.013042092533677198,
+      "val_loss": 0.02582816407084465
+    },
+    {
+      "epoch": 53,
+      "train_loss": 0.012626308296337634,
+      "val_loss": 0.02324291132390499
+    },
+    {
+      "epoch": 54,
+      "train_loss": 0.012326143045847483,
+      "val_loss": 0.023821601644158363
+    },
+    {
+      "epoch": 55,
+      "train_loss": 0.012086003143453476,
+      "val_loss": 0.023626644164323807
+    },
+    {
+      "epoch": 56,
+      "train_loss": 0.012164242888561626,
+      "val_loss": 0.023212430998682976
+    },
+    {
+      "epoch": 57,
+      "train_loss": 0.011698893686556081,
+      "val_loss": 0.023056823760271072
+    },
+    {
+      "epoch": 58,
+      "train_loss": 0.011926858057175855,
+      "val_loss": 0.023023763671517372
+    },
+    {
+      "epoch": 59,
+      "train_loss": 0.011450006836660892,
+      "val_loss": 0.023276904597878456
+    },
+    {
+      "epoch": 60,
+      "train_loss": 0.011342147682797227,
+      "val_loss": 0.02268606424331665
+    },
+    {
+      "epoch": 61,
+      "train_loss": 0.011168954573767214,
+      "val_loss": 0.022979851812124252
+    },
+    {
+      "epoch": 62,
+      "train_loss": 0.011395251619044573,
+      "val_loss": 0.021845925599336624
+    },
+    {
+      "epoch": 63,
+      "train_loss": 0.011282955759689656,
+      "val_loss": 0.020937295630574226
+    },
+    {
+      "epoch": 64,
+      "train_loss": 0.011327011329675327,
+      "val_loss": 0.021599702537059784
+    },
+    {
+      "epoch": 65,
+      "train_loss": 0.010969269068020877,
+      "val_loss": 0.02141398750245571
+    },
+    {
+      "epoch": 66,
+      "train_loss": 0.010645436668330444,
+      "val_loss": 0.02076507918536663
+    },
+    {
+      "epoch": 67,
+      "train_loss": 0.010316997288353212,
+      "val_loss": 0.0205732062458992
+    },
+    {
+      "epoch": 68,
+      "train_loss": 0.010209603168027971,
+      "val_loss": 0.020310265943408012
+    },
+    {
+      "epoch": 69,
+      "train_loss": 0.010272037393003582,
+      "val_loss": 0.02024591527879238
+    },
+    {
+      "epoch": 70,
+      "train_loss": 0.009970651625636859,
+      "val_loss": 0.021366016939282417
+    },
+    {
+      "epoch": 71,
+      "train_loss": 0.009953370883709234,
+      "val_loss": 0.020605696365237236
+    },
+    {
+      "epoch": 72,
+      "train_loss": 0.010250684941251744,
+      "val_loss": 0.020596422255039215
+    },
+    {
+      "epoch": 73,
+      "train_loss": 0.009966996552634055,
+      "val_loss": 0.019581211730837822
+    },
+    {
+      "epoch": 74,
+      "train_loss": 0.010074338158991638,
+      "val_loss": 0.02016930654644966
+    },
+    {
+      "epoch": 75,
+      "train_loss": 0.009612231636543917,
+      "val_loss": 0.019914694130420685
+    },
+    {
+      "epoch": 76,
+      "train_loss": 0.009219463550292474,
+      "val_loss": 0.019337665289640427
+    },
+    {
+      "epoch": 77,
+      "train_loss": 0.009491607743882744,
+      "val_loss": 0.019269000738859177
+    },
+    {
+      "epoch": 78,
+      "train_loss": 0.009338766278424735,
+      "val_loss": 0.019682923331856728
+    },
+    {
+      "epoch": 79,
+      "train_loss": 0.009242140129063265,
+      "val_loss": 0.01958714984357357
+    },
+    {
+      "epoch": 80,
+      "train_loss": 0.009237222284099978,
+      "val_loss": 0.019566111266613007
+    },
+    {
+      "epoch": 81,
+      "train_loss": 0.009040737032994937,
+      "val_loss": 0.019566873088479042
+    },
+    {
+      "epoch": 82,
+      "train_loss": 0.008752951415162465,
+      "val_loss": 0.019282855093479156
+    },
+    {
+      "epoch": 83,
+      "train_loss": 0.008802201864315058,
+      "val_loss": 0.019379304721951485
+    },
+    {
+      "epoch": 84,
+      "train_loss": 0.008905330004634771,
+      "val_loss": 0.018212750554084778
+    },
+    {
+      "epoch": 85,
+      "train_loss": 0.00866368357313725,
+      "val_loss": 0.018152784556150436
+    },
+    {
+      "epoch": 86,
+      "train_loss": 0.008585325151965443,
+      "val_loss": 0.01839139498770237
+    },
+    {
+      "epoch": 87,
+      "train_loss": 0.00861564412019346,
+      "val_loss": 0.018417421728372574
+    },
+    {
+      "epoch": 88,
+      "train_loss": 0.008611963534792662,
+      "val_loss": 0.018772510811686516
+    },
+    {
+      "epoch": 89,
+      "train_loss": 0.008308552798971322,
+      "val_loss": 0.01789635233581066
+    },
+    {
+      "epoch": 90,
+      "train_loss": 0.008147097878469865,
+      "val_loss": 0.01798843964934349
+    },
+    {
+      "epoch": 91,
+      "train_loss": 0.008394469218436014,
+      "val_loss": 0.01759130135178566
+    },
+    {
+      "epoch": 92,
+      "train_loss": 0.00801315242293318,
+      "val_loss": 0.017683744430541992
+    },
+    {
+      "epoch": 93,
+      "train_loss": 0.008022209951321338,
+      "val_loss": 0.018136413767933846
+    },
+    {
+      "epoch": 94,
+      "train_loss": 0.008092217429570059,
+      "val_loss": 0.01792215183377266
+    },
+    {
+      "epoch": 95,
+      "train_loss": 0.008016470589488662,
+      "val_loss": 0.017249975353479385
+    },
+    {
+      "epoch": 96,
+      "train_loss": 0.007836516681744517,
+      "val_loss": 0.017886392772197723
+    },
+    {
+      "epoch": 97,
+      "train_loss": 0.0078117979273005745,
+      "val_loss": 0.017537012696266174
+    },
+    {
+      "epoch": 98,
+      "train_loss": 0.007749147386362627,
+      "val_loss": 0.017479395493865013
+    },
+    {
+      "epoch": 99,
+      "train_loss": 0.007667882999272108,
+      "val_loss": 0.017038345336914062
+    },
+    {
+      "epoch": 100,
+      "train_loss": 0.007594395411395056,
+      "val_loss": 0.016593219712376595
+    },
+    {
+      "epoch": 101,
+      "train_loss": 0.007478666166554539,
+      "val_loss": 0.016905484721064568
+    },
+    {
+      "epoch": 102,
+      "train_loss": 0.0074230456523573995,
+      "val_loss": 0.017689846456050873
+    },
+    {
+      "epoch": 103,
+      "train_loss": 0.007542532113900542,
+      "val_loss": 0.016710178926587105
+    },
+    {
+      "epoch": 104,
+      "train_loss": 0.007403216012377063,
+      "val_loss": 0.0171841811388731
+    },
+    {
+      "epoch": 105,
+      "train_loss": 0.007424299850099479,
+      "val_loss": 0.016188722103834152
+    },
+    {
+      "epoch": 106,
+      "train_loss": 0.007299701459863066,
+      "val_loss": 0.01620333082973957
+    },
+    {
+      "epoch": 107,
+      "train_loss": 0.007108353188547008,
+      "val_loss": 0.016411127522587776
+    },
+    {
+      "epoch": 108,
+      "train_loss": 0.007176370747493686,
+      "val_loss": 0.01680000312626362
+    },
+    {
+      "epoch": 109,
+      "train_loss": 0.006979868708413164,
+      "val_loss": 0.015760833397507668
+    },
+    {
+      "epoch": 110,
+      "train_loss": 0.007048594695750746,
+      "val_loss": 0.01586807146668434
+    },
+    {
+      "epoch": 111,
+      "train_loss": 0.006930695609552042,
+      "val_loss": 0.015605754218995571
+    },
+    {
+      "epoch": 112,
+      "train_loss": 0.006813626180732921,
+      "val_loss": 0.01651548035442829
+    },
+    {
+      "epoch": 113,
+      "train_loss": 0.006951778008672459,
+      "val_loss": 0.01720683090388775
+    },
+    {
+      "epoch": 114,
+      "train_loss": 0.007030695738439427,
+      "val_loss": 0.016246512532234192
+    },
+    {
+      "epoch": 115,
+      "train_loss": 0.0067827473907015505,
+      "val_loss": 0.016159160062670708
+    },
+    {
+      "epoch": 116,
+      "train_loss": 0.006723792299520528,
+      "val_loss": 0.015274262055754662
+    },
+    {
+      "epoch": 117,
+      "train_loss": 0.006590179244748908,
+      "val_loss": 0.01546384021639824
+    },
+    {
+      "epoch": 118,
+      "train_loss": 0.006443759979679247,
+      "val_loss": 0.015331439673900604
+    },
+    {
+      "epoch": 119,
+      "train_loss": 0.006551055738599357,
+      "val_loss": 0.015750611200928688
+    },
+    {
+      "epoch": 120,
+      "train_loss": 0.006430979344945881,
+      "val_loss": 0.015534305945038795
+    },
+    {
+      "epoch": 121,
+      "train_loss": 0.006427563469513031,
+      "val_loss": 0.015278839506208897
+    },
+    {
+      "epoch": 122,
+      "train_loss": 0.006452130081695923,
+      "val_loss": 0.015335693024098873
+    },
+    {
+      "epoch": 123,
+      "train_loss": 0.006533386819832114,
+      "val_loss": 0.015602934174239635
+    },
+    {
+      "epoch": 124,
+      "train_loss": 0.006215595292818874,
+      "val_loss": 0.015068828128278255
+    },
+    {
+      "epoch": 125,
+      "train_loss": 0.006304902173564728,
+      "val_loss": 0.015026966109871864
+    },
+    {
+      "epoch": 126,
+      "train_loss": 0.006221928065340178,
+      "val_loss": 0.014627940952777863
+    },
+    {
+      "epoch": 127,
+      "train_loss": 0.00616975050715255,
+      "val_loss": 0.01513050775974989
+    },
+    {
+      "epoch": 128,
+      "train_loss": 0.006224608106968638,
+      "val_loss": 0.015101171098649502
+    },
+    {
+      "epoch": 129,
+      "train_loss": 0.006069285631422254,
+      "val_loss": 0.015358200296759605
+    },
+    {
+      "epoch": 130,
+      "train_loss": 0.006296863644646686,
+      "val_loss": 0.015530196949839592
+    },
+    {
+      "epoch": 131,
+      "train_loss": 0.0061271874517519545,
+      "val_loss": 0.016197293996810913
+    },
+    {
+      "epoch": 132,
+      "train_loss": 0.0077441286956976005,
+      "val_loss": 0.014635530300438404
+    },
+    {
+      "epoch": 133,
+      "train_loss": 0.006010598741786654,
+      "val_loss": 0.014698438346385956
+    },
+    {
+      "epoch": 134,
+      "train_loss": 0.005887259168788768,
+      "val_loss": 0.014642205089330673
+    },
+    {
+      "epoch": 135,
+      "train_loss": 0.005889290913773626,
+      "val_loss": 0.014863604679703712
+    },
+    {
+      "epoch": 136,
+      "train_loss": 0.005931371211031688,
+      "val_loss": 0.014129595831036568
+    },
+    {
+      "epoch": 137,
+      "train_loss": 0.005789099979855923,
+      "val_loss": 0.013796203769743443
+    },
+    {
+      "epoch": 138,
+      "train_loss": 0.005670364335904896,
+      "val_loss": 0.014356080442667007
+    },
+    {
+      "epoch": 139,
+      "train_loss": 0.005751799340219496,
+      "val_loss": 0.014024393633008003
+    },
+    {
+      "epoch": 140,
+      "train_loss": 0.005627974957154434,
+      "val_loss": 0.014565595425665379
+    },
+    {
+      "epoch": 141,
+      "train_loss": 0.005817765232806399,
+      "val_loss": 0.014383879490196705
+    },
+    {
+      "epoch": 142,
+      "train_loss": 0.005775110004052014,
+      "val_loss": 0.01438358798623085
+    },
+    {
+      "epoch": 143,
+      "train_loss": 0.005600679113040324,
+      "val_loss": 0.014485105872154236
+    },
+    {
+      "epoch": 144,
+      "train_loss": 0.0055330618192766245,
+      "val_loss": 0.014476239681243896
+    },
+    {
+      "epoch": 145,
+      "train_loss": 0.005682787544049346,
+      "val_loss": 0.014610938727855682
+    },
+    {
+      "epoch": 146,
+      "train_loss": 0.005638305595938695,
+      "val_loss": 0.013855038210749626
+    },
+    {
+      "epoch": 147,
+      "train_loss": 0.005452006227810762,
+      "val_loss": 0.014009510166943073
+    },
+    {
+      "epoch": 148,
+      "train_loss": 0.005585852738055941,
+      "val_loss": 0.014223125763237476
+    },
+    {
+      "epoch": 149,
+      "train_loss": 0.00549267318099789,
+      "val_loss": 0.01396198756992817
+    },
+    {
+      "epoch": 150,
+      "train_loss": 0.005451592259220486,
+      "val_loss": 0.014156833291053772
+    },
+    {
+      "epoch": 151,
+      "train_loss": 0.005478797304702598,
+      "val_loss": 0.014127052389085293
+    },
+    {
+      "epoch": 152,
+      "train_loss": 0.005380098567331119,
+      "val_loss": 0.013853838667273521
+    },
+    {
+      "epoch": 153,
+      "train_loss": 0.005258244576916824,
+      "val_loss": 0.013933246955275536
+    },
+    {
+      "epoch": 154,
+      "train_loss": 0.005468394881248351,
+      "val_loss": 0.014190521091222763
+    },
+    {
+      "epoch": 155,
+      "train_loss": 0.005288838901091912,
+      "val_loss": 0.01369447261095047
+    },
+    {
+      "epoch": 156,
+      "train_loss": 0.005279120549091726,
+      "val_loss": 0.014270666055381298
+    },
+    {
+      "epoch": 157,
+      "train_loss": 0.00527081403631914,
+      "val_loss": 0.013736056163907051
+    },
+    {
+      "epoch": 158,
+      "train_loss": 0.005222295617672579,
+      "val_loss": 0.013385504484176636
+    },
+    {
+      "epoch": 159,
+      "train_loss": 0.005160229378824344,
+      "val_loss": 0.013808296993374825
+    },
+    {
+      "epoch": 160,
+      "train_loss": 0.0051949233876453765,
+      "val_loss": 0.013515320606529713
+    },
+    {
+      "epoch": 161,
+      "train_loss": 0.005119601734778445,
+      "val_loss": 0.014365592040121555
+    },
+    {
+      "epoch": 162,
+      "train_loss": 0.005139221987535161,
+      "val_loss": 0.01428929716348648
+    },
+    {
+      "epoch": 163,
+      "train_loss": 0.005103095595188774,
+      "val_loss": 0.01352408342063427
+    },
+    {
+      "epoch": 164,
+      "train_loss": 0.004944295507335798,
+      "val_loss": 0.013685138896107674
+    },
+    {
+      "epoch": 165,
+      "train_loss": 0.005046730663225942,
+      "val_loss": 0.013100555166602135
+    },
+    {
+      "epoch": 166,
+      "train_loss": 0.004879867511758817,
+      "val_loss": 0.014257107861340046
+    },
+    {
+      "epoch": 167,
+      "train_loss": 0.00495945678773686,
+      "val_loss": 0.01354943960905075
+    },
+    {
+      "epoch": 168,
+      "train_loss": 0.004975750719462216,
+      "val_loss": 0.013582865707576275
+    },
+    {
+      "epoch": 169,
+      "train_loss": 0.004955153349942053,
+      "val_loss": 0.013666123151779175
+    },
+    {
+      "epoch": 170,
+      "train_loss": 0.0048654066228492054,
+      "val_loss": 0.013293092139065266
+    },
+    {
+      "epoch": 171,
+      "train_loss": 0.004902921600049133,
+      "val_loss": 0.013039262033998966
+    },
+    {
+      "epoch": 172,
+      "train_loss": 0.005047664767132351,
+      "val_loss": 0.013690673746168613
+    },
+    {
+      "epoch": 173,
+      "train_loss": 0.0048026287552363055,
+      "val_loss": 0.014281094074249268
+    },
+    {
+      "epoch": 174,
+      "train_loss": 0.004846642066103388,
+      "val_loss": 0.013847053982317448
+    },
+    {
+      "epoch": 175,
+      "train_loss": 0.004846952400771342,
+      "val_loss": 0.013317483477294445
+    },
+    {
+      "epoch": 176,
+      "train_loss": 0.00492665319584918,
+      "val_loss": 0.013112088665366173
+    },
+    {
+      "epoch": 177,
+      "train_loss": 0.004822933112159093,
+      "val_loss": 0.014430196955800056
+    },
+    {
+      "epoch": 178,
+      "train_loss": 0.005138393287528407,
+      "val_loss": 0.013374469242990017
+    },
+    {
+      "epoch": 179,
+      "train_loss": 0.004730435819811623,
+      "val_loss": 0.013806632719933987
+    },
+    {
+      "epoch": 180,
+      "train_loss": 0.00465462715248493,
+      "val_loss": 0.013742773793637753
+    },
+    {
+      "epoch": 181,
+      "train_loss": 0.004648975574045036,
+      "val_loss": 0.01362279336899519
+    },
+    {
+      "epoch": 182,
+      "train_loss": 0.004611778451597765,
+      "val_loss": 0.013663174584507942
+    },
+    {
+      "epoch": 183,
+      "train_loss": 0.004539341331205203,
+      "val_loss": 0.012894460000097752
+    },
+    {
+      "epoch": 184,
+      "train_loss": 0.00445593413738196,
+      "val_loss": 0.013286182656884193
+    },
+    {
+      "epoch": 185,
+      "train_loss": 0.004553484634705971,
+      "val_loss": 0.013284009881317616
+    },
+    {
+      "epoch": 186,
+      "train_loss": 0.004427972574082452,
+      "val_loss": 0.013373776338994503
+    },
+    {
+      "epoch": 187,
+      "train_loss": 0.004634479800658604,
+      "val_loss": 0.01335844211280346
+    },
+    {
+      "epoch": 188,
+      "train_loss": 0.004411864571669581,
+      "val_loss": 0.013362543657422066
+    },
+    {
+      "epoch": 189,
+      "train_loss": 0.004616613596444884,
+      "val_loss": 0.012944230809807777
+    },
+    {
+      "epoch": 190,
+      "train_loss": 0.004419961540469439,
+      "val_loss": 0.013209361582994461
+    },
+    {
+      "epoch": 191,
+      "train_loss": 0.004473054128457546,
+      "val_loss": 0.012803123332560062
+    },
+    {
+      "epoch": 192,
+      "train_loss": 0.004447865743863516,
+      "val_loss": 0.014430161565542221
+    },
+    {
+      "epoch": 193,
+      "train_loss": 0.004486484450448518,
+      "val_loss": 0.01373307965695858
+    },
+    {
+      "epoch": 194,
+      "train_loss": 0.004489556654553769,
+      "val_loss": 0.013581356965005398
+    },
+    {
+      "epoch": 195,
+      "train_loss": 0.0043819882912188605,
+      "val_loss": 0.014154752716422081
+    },
+    {
+      "epoch": 196,
+      "train_loss": 0.00441777143558673,
+      "val_loss": 0.013165220618247986
+    },
+    {
+      "epoch": 197,
+      "train_loss": 0.004266321734384789,
+      "val_loss": 0.012994720600545406
+    },
+    {
+      "epoch": 198,
+      "train_loss": 0.0042723283252892146,
+      "val_loss": 0.013355349190533161
+    },
+    {
+      "epoch": 199,
+      "train_loss": 0.004436168243595907,
+      "val_loss": 0.013410625047981739
+    },
+    {
+      "epoch": 200,
+      "train_loss": 0.004260091805183908,
+      "val_loss": 0.013384390622377396
+    }
+  ],
+  "best_epoch": 191,
+  "train_pairs": 35894,
+  "val_pairs": 5464,
+  "training_seconds": 68.46704347299965,
+  "best_val_loss": 0.012803123332560062,
+  "last_epoch": 200,
+  "checkpoint_role": "best",
+  "epoch": 191
+}

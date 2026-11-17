@@ -1,0 +1,33 @@
+# Top-level versions used for the project's CPU training and simulator tests.
+# Create separately from the existing pusht-sim environment:
+#   conda env create -f environment_research.yaml
+name: pusht-research
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.9.18
+  - pip=22.2.2
+  - numpy=1.23.3
+  - scipy=1.9.1
+  - matplotlib-base=3.6.1
+  - tk=8.6.13
+  - py-opencv=4.6.0
+  - scikit-image=0.19.3
+  - gym=0.21.0
+  - pymunk=6.2.1
+  - shapely=1.8.4
+  - zarr=2.12.0
+  - numcodecs=0.10.2
+  - click=8.0.4
+  - pillow=9.4.0
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cpu
+      - torch==2.5.1+cpu
+      - pygame==2.1.2
+      - networkx==3.2.1
+      - sympy==1.13.1
+      - filelock==3.19.1
+      - typing-extensions==4.14.1
+      - jinja2==3.1.6
+      - fsspec==2025.7.0

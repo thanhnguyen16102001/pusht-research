@@ -1,0 +1,78 @@
+{
+  "seed": 12001,
+  "controller": "mpc",
+  "steps": 3,
+  "success": false,
+  "completion_time_seconds": null,
+  "target_coverage": 0.995,
+  "target_coverage_comparison": ">=",
+  "original_success_threshold": 0.95,
+  "original_environment_success": true,
+  "original_environment_reached": true,
+  "target_area": 6300.0,
+  "final_uncovered_fraction": 0.038095238095238404,
+  "final_uncovered_area": 240.00000000000193,
+  "min_uncovered_fraction": 0.038095238095238404,
+  "min_uncovered_area": 240.00000000000193,
+  "elapsed_simulation_seconds": 0.30000000000000004,
+  "wall_seconds": 1.6139872780004225,
+  "time_limit_seconds": 0.30000000000000004,
+  "stopped_by_user": false,
+  "termination_reason": "time_limit",
+  "initial_coverage": 0.9619047619047616,
+  "final_coverage": 0.9619047619047616,
+  "max_coverage": 0.9619047619047616,
+  "fallback_count": 0,
+  "planning_ms_mean": 236.65982500097016,
+  "planning_ms_p50": 224.22625800027163,
+  "planning_ms_p95": 283.9954695020424,
+  "planning_deadline_misses": 3,
+  "one_step_T_position_error_mean": 0.08190318197011948,
+  "invalid_prediction_count": 0,
+  "scored_model_predictions": 3,
+  "actuator_path_length": 2.9982919805562798,
+  "velocity_total_variation": 43.98993519418309,
+  "acceleration_rms": 151.32447632920957,
+  "acceleration_peak": 194.07604289642623,
+  "final_block_position_error": 2.0000021574075806,
+  "final_block_angle_error_deg": 0.0,
+  "planner_diagnostics": {
+    "cost": [
+      0.26331037282943726,
+      0.2444625049829483,
+      0.18697795271873474
+    ],
+    "components": [
+      {
+        "goal": 7.790408562868834e-05,
+        "distance": 0.20961381494998932,
+        "smoothness": 0.1543673723936081,
+        "time": 1.0,
+        "approach": 0.04498722404241562,
+        "consistency": 0.0004209350736346096,
+        "penetration": 0.0,
+        "overlap": 0.011863944120705128
+      },
+      {
+        "goal": 4.778245784109458e-05,
+        "distance": 0.2238847315311432,
+        "smoothness": 0.15475468337535858,
+        "time": 1.0,
+        "approach": 0.059035517275333405,
+        "consistency": 0.00041387585224583745,
+        "penetration": 0.0,
+        "overlap": 0.008055806159973145
+      },
+      {
+        "goal": 2.0331146515673026e-05,
+        "distance": 0.23600824177265167,
+        "smoothness": 0.155679851770401,
+        "time": 0.8095238208770752,
+        "approach": 0.08394065499305725,
+        "consistency": 0.00041716950363479555,
+        "penetration": 0.0,
+        "overlap": 0.004070296883583069
+      }
+    ]
+  }
+}

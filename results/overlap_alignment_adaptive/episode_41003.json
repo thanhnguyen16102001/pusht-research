@@ -1,0 +1,101 @@
+{
+  "seed": 41003,
+  "controller": "mpc",
+  "steps": 5,
+  "success": true,
+  "completion_time_seconds": 0.5,
+  "target_coverage": 0.995,
+  "target_coverage_comparison": ">=",
+  "original_success_threshold": 0.95,
+  "original_environment_success": true,
+  "original_environment_reached": true,
+  "target_area": 6300.0,
+  "final_uncovered_fraction": 0.0046309354410575265,
+  "final_uncovered_area": 29.174893278662417,
+  "min_uncovered_fraction": 0.0046309354410575265,
+  "min_uncovered_area": 29.174893278662417,
+  "elapsed_simulation_seconds": 0.5,
+  "wall_seconds": 1.189868015000684,
+  "time_limit_seconds": 6.0,
+  "stopped_by_user": false,
+  "termination_reason": "success",
+  "initial_coverage": 0.961904761904762,
+  "final_coverage": 0.9953690645589425,
+  "max_coverage": 0.9953690645589425,
+  "fallback_count": 0,
+  "planning_ms_mean": 236.5607239997189,
+  "planning_ms_p50": 236.66886100181728,
+  "planning_ms_p95": 245.72283680026885,
+  "planning_deadline_misses": 5,
+  "one_step_T_position_error_mean": 0.10806550085544586,
+  "invalid_prediction_count": 0,
+  "scored_model_predictions": 5,
+  "actuator_path_length": 7.270873322192825,
+  "velocity_total_variation": 37.737158674055706,
+  "acceleration_rms": 83.49117602399659,
+  "acceleration_peak": 130.53887102599595,
+  "final_block_position_error": 0.22728153521229968,
+  "final_block_angle_error_deg": 0.03075292673798241,
+  "case": "local_y_minus_2",
+  "planner_diagnostics": {
+    "cost": [
+      0.2667345702648163,
+      0.25436797738075256,
+      0.2501387894153595,
+      0.24611862003803253,
+      0.24430625140666962
+    ],
+    "components": [
+      {
+        "goal": 9.342713747173548e-05,
+        "distance": 0.01681053824722767,
+        "smoothness": 0.0014815002214163542,
+        "time": 1.0,
+        "approach": 1.7976597519009374e-05,
+        "consistency": 0.0,
+        "penetration": 0.0,
+        "overlap": 0.013141659088432789
+      },
+      {
+        "goal": 6.337007653200999e-05,
+        "distance": 0.016569754108786583,
+        "smoothness": 0.0011364428792148829,
+        "time": 1.0,
+        "approach": 2.1418756659841165e-05,
+        "consistency": 0.0,
+        "penetration": 0.0,
+        "overlap": 0.010729020461440086
+      },
+      {
+        "goal": 4.9350936023984104e-05,
+        "distance": 0.0183408185839653,
+        "smoothness": 0.0015381249831989408,
+        "time": 1.0,
+        "approach": 3.856243711197749e-05,
+        "consistency": 0.0,
+        "penetration": 0.0,
+        "overlap": 0.009908946231007576
+      },
+      {
+        "goal": 4.343260661698878e-05,
+        "distance": 0.017761019989848137,
+        "smoothness": 0.001650228165090084,
+        "time": 1.0,
+        "approach": 2.5167959393002093e-05,
+        "consistency": 0.0,
+        "penetration": 0.0,
+        "overlap": 0.00911729596555233
+      },
+      {
+        "goal": 4.0865175833459944e-05,
+        "distance": 0.01736309751868248,
+        "smoothness": 0.00158422882668674,
+        "time": 1.0,
+        "approach": 1.5276647900464013e-05,
+        "consistency": 0.0,
+        "penetration": 0.0,
+        "overlap": 0.008760478347539902
+      }
+    ]
+  }
+}

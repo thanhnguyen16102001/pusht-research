@@ -1,0 +1,17 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# This handoff includes demonstrations, processed data, checkpoints and results.
+# Large pretrained checkpoints are tracked through Git LFS (.gitattributes).
+
+# Interrupted atomic writes and editor files
+*.tmp
+*~
+.DS_Store
